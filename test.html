@@ -4,20 +4,26 @@
 <head> 
 	<link href="css/test.css" rel="stylesheet" type="text/css">
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 	<script src="js/index.js"></script>
 </head>
 
 <body>
+	<button class="btn" id="green">Green</button>
+	<button class="btn" id="yellow">Yellow</button>
+	<button class="btn" id="purple">Purple</button>
     <div class="bigBox">
-		<div class="yellow">
-		  	<h3 id="test2">CLICK THIS</h3>
-		  	<p>This is a demonstration of jQuery SimpleDialog.</p>
+		<div class="box yellow">
+		  	<p>This is yellow.</p>
 		</div> 
-		<div class="green">
-		  	<p id="haha">CLICK THIS</p>
-		  	<p>This is a demonstration of jQuery SimpleDialog.</p>
-		</div>          
+		<div class="box green">
+		  	<p>This is green.</p>
+		</div>     
+		<div class="box purple">
+		  	<p>This is purple.</p>
+		</div>         
     </div>
+
 </body>
 </html>
