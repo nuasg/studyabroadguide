@@ -16,11 +16,10 @@ $( document ).ready(function() {
 
 	$('.eat-place-1').show();
 
-/*
+
 	$('.eat-list').click(function() {
 
 		var $id = this.id;
-		alert($id);
 		$('.eat-info').hide();
 	    $('.' + $id).show("slide", {
 	        direction: "right"
@@ -29,5 +28,4 @@ $( document ).ready(function() {
     	$(this).addClass('selected');
 	});
 
-*/
 });

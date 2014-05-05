@@ -8,7 +8,7 @@
 
 }
 
-.programs li, .eat-list li {
+.programs li, .eats li {
     position: relative;
     height: 108px;
     width: 400px;
@@ -16,11 +16,9 @@
     border: solid;
     font-family: FontAwesome;
     font-size: 1.2em;
-    /*background-color: #512C51;   
-    color: #fff;*/
 }
 
-.programs li:hover, .eat-list li:hover {
+.programs li:hover, .eats li:hover {
     cursor: pointer; cursor: hand;
     background-color: #ddd;
 }
@@ -29,11 +27,9 @@
     position:absolute;
     width: 10px;
     top: 100px;
-    /*left: -40px;*/
     text-align: center;
     padding: 5px;
     text-transform: uppercase;
-   /* background-color: #FF8A54;*/
     -webkit-transform-origin: 0 0;
     -webkit-transform:rotate(-90deg);
 }
@@ -83,13 +79,15 @@ li.selected {
     height:200px;
 }
 
+.eats {
+    margin-top: 140px;
+}
 
 .eat-list {
     max-width: 300px;
     margin-top: 30px;
+    left: 50px;
 }
-
-
 
 .eat-list .rotate {
     top: 110px;
@@ -100,16 +98,17 @@ li.selected {
 .eat-info {
     margin: 40px;
     display: none;
+
 }
 
+
 .eat-text { 
-    height: 880px;
+    height: 900px;
     border: solid;
     font-family: FontAwesome;
     font-size: 1.5em;
     overflow: auto;
     position: relative;
-    left: 40px;
 }
 
 .eat-image-tag {
