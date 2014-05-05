@@ -1,4 +1,5 @@
 
+
 #london-image {
     background-image: url(../img/london.jpg);
     width: 100%;
@@ -20,14 +21,15 @@
 }
 
 .programs li:hover, .eats li:hover {
-    background-color: #DDD;
+    cursor: pointer; cursor: hand;
+    background-color: #ddd;
 }
 
 .program-list .rotate {
     position:absolute;
     width: 100px;
-    top: 75px;
-    left: -40px;
+    top: 100px;
+    /*left: -40px;*/
     text-align: center;
     padding: 5px;
     text-transform: uppercase;
@@ -36,24 +38,34 @@
     -webkit-transform:rotate(-90deg);
 }
 
-.program-list {
-    position:absolute;
-    left: 40px;
-    top: 25px;
-}
 
 .program-list .name {
     text-transform: uppercase;
 }
 
+.program-list .name, .program-list .desc {
+    margin: 25px 0 0 50px;
+}
+
+li.selected { 
+    background-color: #aaa; 
+}
+
 
 .program-text { 
     height: 880px;
-    padding: 40px;
     border: solid;
     font-family: FontAwesome;
     font-size: 1.5em;
     overflow: auto;
+    position: relative;
+}
+
+.program-info {
+    display: none;
+    margin: 40px;
+    position: absolute;
+    height: 100%;
 }
 
 

@@ -14,6 +14,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/freelancer.css" rel="stylesheet" type="text/css">
     <link href="css/eat.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css"/>
 
     <!-- Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -105,75 +106,82 @@
                 </div>
             </div>
             <div class="row"> 
-                <div class="col-lg-6 col-lg-offset-1 program-text">         
-                    <strong>Classes: </strong><br>
-                    <ul><li>Pass/Fail: Yes</li>
-                    <li>Northwestern Credit: Yes</li>
-                    <li>Effect on Northwestern GPA: N/A</li></ul><br>
+                <div class="col-lg-6 col-lg-offset-1 program-text">
+                    <div class="program-info program-1 program-2 program-3 program-5 program-6 program-7">
+                        <p> Coming soon...</p>
+                    </div>
+                    <div class="program-info program-4">
+                        <p>         
+                        <strong>Classes: </strong><br>
+                        <ul><li>Pass/Fail: Yes</li>
+                        <li>Northwestern Credit: Yes</li>
+                        <li>Effect on Northwestern GPA: N/A</li></ul><br>
 
-                    <strong>Specialization: </strong>Economics and Political Science <br><br>
+                        <strong>Specialization: </strong>Economics and Political Science <br><br>
 
-                    <strong>Terms Offered: </strong>Summer, two three-week sessions (one class per session) or full year September thru July with Winter and Spring break<br><br>
+                        <strong>Terms Offered: </strong>Summer, two three-week sessions (one class per session) or full year September thru July with Winter and Spring break<br><br>
 
-                    <strong>Peer Atmosphere: </strong>In a program of about 2,000 students about 75% of them were American. <br><br> 
+                        <strong>Peer Atmosphere: </strong>In a program of about 2,000 students about 75% of them were American. <br><br> 
 
-                    <strong>Housing:</strong>
-                    Students lived in LSE dorms scattered around central London. Some were 5 minutes away from school while others were a 30-minute walk. Dorms provided singles or doubles, full daily breakfast, full kitchens on floors and a lounge area. It is recommended to stay as close to school as possible but some students found it exciting to be exposed to different neighborhoods. <br><br>
+                        <strong>Housing:</strong>
+                        Students lived in LSE dorms scattered around central London. Some were 5 minutes away from school while others were a 30-minute walk. Dorms provided singles or doubles, full daily breakfast, full kitchens on floors and a lounge area. It is recommended to stay as close to school as possible but some students found it exciting to be exposed to different neighborhoods. <br><br>
 
-                    <strong>What to Expect:</strong>
-                    <li>School sponsored “crush” parties at the bar in the student union, a fun way to meet people the first Friday night or just a fun place for cheap drinks before a night out. </li>
-                    <li>Fantastic library with bean bags (perfect for a mid day nap), and floors with differing levels of noise</li>
-                    <li>Extreme unlikelihood of failure unless you are taking a hard class like derivatives </li>
-                    <li>Bi-weekly speaker events, not very recommended 
-                    “Famous” Boat Disco, a must do for at least one session</li><br><br>
+                        <strong>What to Expect:</strong>
+                        <li>School sponsored “crush” parties at the bar in the student union, a fun way to meet people the first Friday night or just a fun place for cheap drinks before a night out. </li>
+                        <li>Fantastic library with bean bags (perfect for a mid day nap), and floors with differing levels of noise</li>
+                        <li>Extreme unlikelihood of failure unless you are taking a hard class like derivatives </li>
+                        <li>Bi-weekly speaker events, not very recommended 
+                        “Famous” Boat Disco, a must do for at least one session</li><br><br>
+                        </p>
+                    </div>
                     
                 </div> <!-- col -->
                 <div class="programs col-lg-4 ">
                     <ul class="list-unstyled">
-                        <li id="test">
-                            <div class = "program-list">
+                        <li class="program-list" id="program-1">
+                            <div>
                                 <span class="rotate">London</span>
                                 <div class="name">British American Drama</div>
                                 <span class="desc">Drama</span>
                             </div>
                         </li>
-                        <li>
-                            <div class = "program-list">
+                        <li class="program-list" id="program-2">
+                            <div>
                                 <span class="rotate">London</span>
                                 <div class="name">Goldsmith's College</div>
                                 <span class="desc">Music, Drama and, Theater</span>
                             </div>
                         </li>
-                        <li>
-                            <div class = "program-list">
+                        <li class="program-list" id="program-3">
+                            <div>
                                 <span class="rotate">London</span>
                                 <div class="name">King's College, University of</div>
                                 <span class="desc">Biosciences</span>
                             </div>
                         </li>
-                        <li>
-                            <div class = "program-list">
+                        <li class="program-list selected" id="program-4">
+                            <div>
                                 <span class="rotate">London</span>
                                 <div class="name">London School of Economics</div>
-                                <span class="desc">Social, Political and Economic Sciences</span>
+                                <span class="desc">Political and Economic Sciences</span>
                             </div>
                         </li>     
-                        <li>
-                            <div class = "program-list">
+                        <li class="program-list" id="program-5">
+                            <div>
                                 <span class="rotate">London</span>
                                 <div class="name">Queen Mary, University of</div>
                                 <span class="desc">Arts and Sciences</span>
                             </div>
                         </li>
-                        <li>
-                            <div class = "program-list">
+                        <li class="program-list" id="program-6">
+                            <div>
                                 <span class="rotate">London</span>
                                 <div class="name">Royal Academy of Music</div>
                                 <span class="desc">Musical Performance</span>
                             </div>
                         </li>
-                        <li>
-                            <div class = "program-list">
+                        <li class="program-list" id="program-7">
+                            <div>
                                 <span class="rotate">London</span>
                                 <div class="name">University College London</div>
                                 <span class="desc">Economics and English</span>
@@ -523,7 +531,7 @@
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
     <script src="js/freelancer.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script src="js/index.js"></script>
 
 </body>
