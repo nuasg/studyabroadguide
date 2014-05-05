@@ -8,10 +8,10 @@
 
 }
 
-.programs li, .eats li {
+.programs li, .eat-list li {
     position: relative;
     height: 108px;
-    width: 370px;
+    width: 400px;
     margin-bottom: 20px;
     border: solid;
     font-family: FontAwesome;
@@ -20,14 +20,14 @@
     color: #fff;*/
 }
 
-.programs li:hover, .eats li:hover {
+.programs li:hover, .eat-list li:hover {
     cursor: pointer; cursor: hand;
     background-color: #ddd;
 }
 
-.program-list .rotate {
+.program-list .rotate, .eat-list .rotate {
     position:absolute;
-    width: 100px;
+    width: 10px;
     top: 100px;
     /*left: -40px;*/
     text-align: center;
@@ -39,11 +39,11 @@
 }
 
 
-.program-list .name {
+.program-list .name, .eat-list .name {
     text-transform: uppercase;
 }
 
-.program-list .name, .program-list .desc {
+.program-list .name, .program-list .desc, .eat-list .name, .eat-list .desc{
     margin: 25px 0 0 50px;
 }
 
@@ -84,29 +84,32 @@ li.selected {
 }
 
 
-.eats .program-list .name, .eats .program-list .desc {
-    position: relative;
-    left: 50px;
+.eat-list {
+    max-width: 300px;
+    margin-top: 30px;
 }
 
- .eats li {
-    height: 130px;
-    margin-bottom: 30px;
+
+
+.eat-list .rotate {
+    top: 110px;
+    width: 120px;
+    font-size: 0.8em;
+}
+
+.eat-info {
+    margin: 40px;
+    display: none;
+}
+
+.eat-text { 
+    height: 880px;
+    border: solid;
+    font-family: FontAwesome;
     font-size: 1.5em;
- }
-
-.eats .program-list {
-    left: 60px;
-    top: 30px;
-}
-
-#eat .program-text {
-    height: auto;
-    left: 20px;
-}
-
-.eats {
-    margin-top: 130px;
+    overflow: auto;
+    position: relative;
+    left: 40px;
 }
 
 .eat-image-tag {
