@@ -1,5 +1,3 @@
-
-
 #london-image {
     background-image: url(../img/london.jpg);
     width: 100%;
@@ -187,4 +185,8 @@ hr.line{
 
 .logo {
     margin-top: 50px;
+}
+
+body {
+     zoom: 60%;
 }
