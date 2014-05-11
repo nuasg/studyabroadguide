@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Study Abroad Guide</title>
+  <link rel="stylesheet" href="css/jquery-jvectormap.css" type="text/css" media="screen"/>
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/jquery-jvectormap.min.js"></script>
+  <script src="js/world-map.js"></script>
+</head>
+<body>
+  <div id="map" style="width: 1000px; height: 600px;"></div>
+  <script>
+   $(function () {
+          $('#map').vectorMap({map: 'world_mill_en'});
+          //$('#map').vectorMap('set', 'colors', {us: '#0000ff'});
+        });
+   
+
+
+    /*$(function(){
+      $('#world-map').vectorMap({
+        map: 'world-map',
+        scaleColors: ['#C8EEFF', '#0071A4'],
+        normalizeFunction: 'polynomial',
+        hoverOpacity: 0.7,
+        hoverColor: false,
+        markerStyle: {
+          initial: {
+            fill: '#F8E23B',
+            stroke: '#383f47'
+          }
+        },
+        backgroundColor: '#383f47',
+        markers: [
+          {latLng: [41.90, 12.45], name: 'Vatican City'},
+          {latLng: [-21.13, -175.2], name: 'Tonga'}
+          ]
+      });
+    });*/
+
+    
+  </script>
+</body>
+</html>
