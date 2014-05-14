@@ -1,0 +1,32 @@
+@font-face
+{
+font-family: Quicksand;
+src: url(../fonts/Quicksand-Regular.otf);
+}
+
+body
+{
+  /*background-image: url(../img/london.jpg);*/
+  background: url(../img/dark-bg.png) repeat top left;
+}
+h1 {
+	font-family: Quicksand;
+	/*background-color: #509BBD;*/
+	/*border: 1px solid;*/
+	color: #ccc;
+	font-size: 42px;
+	font-weight: normal;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+a {text-decoration:none;}
+
+#map {
+	margin: 30px auto;
+  	width: auto; height: 500px;
+}
+
+#heading {
+	text-align: center;
+}
