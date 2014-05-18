@@ -1,0 +1,879 @@
+/* Overview */
+#overview .resources .intro-block { width:820px; }
+
+/* Climate Change */
+#climatechange .facilities h1,
+#climatechange .product-efficiency h1,
+#climatechange .product-efficiency h2,
+#climatechange .recycling h1 { margin-left:-2px; }
+#climatechange .facilities h2 { margin-left:-1px; }
+
+#climatechange .measurement .why p { width:541px; }
+
+#climatechange .data-centers .data-centers-intro h2 { margin-left:-5px; }
+#climatechange .data-centers .gallery .gallery-content.gallery-solar figcaption { padding-left:51px; }
+#climatechange .data-centers .gallery .gallery-content.gallery-solar figcaption p { width:545px; }
+#climatechange .data-centers .colocated-facilities p { width:562px; }
+
+#climatechange .product-efficiency .swipe-gallery .gallery-container { height:750px; }
+#climatechange .product-efficiency .swipe-gallery .gallery-view { margin-top:-80px; }
+#climatechange .product-efficiency .swipe-gallery .charge { bottom:41px; }
+#climatechange .product-efficiency .swipe-gallery .measure { bottom:50px; }
+#climatechange .product-efficiency p.energy-star { width:565px; }
+#climatechange .product-efficiency p.epeat { width:500px; margin-bottom:0; }
+
+/* Toxins */
+#toxins .better h2 { margin-left:-2px; }
+#toxins .substitutes h2 { margin-left:-1px; }
+#toxins .testing h2 { margin-left:-1px; }
+#toxins .caption-container.caption-figure-right { width:100%; max-width:1440px; *width:1440px; height:650px; margin:0 auto; position:relative; }
+#toxins .caption-container.caption-figure-right img { position:absolute; right:0;}
+
+/* Resources */
+#resources .durability h2 { margin-left:-1px; }
+
+#resources .recycling h2 { margin-left:-2px; }
+#resources .recycling .grid2colb .column.first p { width:560px; }
+
+#resources .still-working-water h2 { margin-left:-1px; }
+
+
+
+/* Environment CSS */
+html { background:#fff; width:100%; height:100%; *overflow-x:hidden; }
+body { background:#fff; min-width:1024px; min-height:100%; padding:0 0; position:relative; z-index:1; }
+#globalheader { position:absolute; left:50%; margin-left:-490px; z-index:9998; }
+#main { position:static; *position:relative; width:100%; min-width:980px; margin:0 auto; overflow-x:hidden; overflow-y:hidden; }
+
+/* layout */
+#main .block { display:block; }
+#main .inline { display:inline; }
+#main .left { float:left; }
+#main .right { float:right; }
+#main .center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+
+#main .border-top { border-top:1px solid #ccc; }
+#main .border-bottom { border-bottom:1px solid #ccc; }
+
+#main .relative { *position:relative; *z-index:1; *zoom:1; }
+#main .alternate { background-color:#f6f6ee; }
+#main .row { margin:0 auto; width:980px; padding:111px 0 66px; }
+
+/* grid */
+.environment .grid2col,
+.environment .grid2colb { margin:0 auto; width:780px; }
+
+.environment .grid2colb .column.first { width:550px; }
+
+.environment .grid2colb .sidebar { margin-top:9px; width:170px; padding-top:21px; border-top:1px solid #ccc; }
+.environment .grid2colb .sidebar p { padding-top:10px; width:145px; }
+
+
+/* typography */
+#main { font-size:1.333em; line-height:1.688; } /* 16px/27px */
+
+#main h1 { margin-bottom:15px; font-size:1.7142em; line-height:1.1666; font-weight:normal; } /* 24px/28px */
+#main h2 { margin-bottom:21px; font-size:1.2857em; line-height:1.3888; font-weight:normal; } /* 18px/25px */
+#main h3 { margin-bottom:3px; font-size:1em; line-height:1.5; } /* 16px/24px */
+#main h4 { margin-bottom:7px; font-size:1em; line-height:1.5;}
+
+#main h1 img,
+#main h2 img,
+#main h3 img,
+#main h4 img { display:block; margin:0; }
+
+#main p { margin-bottom:25px; }
+
+.gallery .gallery-content .hardware-gallery-caption { position:absolute; font-size:0.75em; line-height:1.350em; }
+
+#main .intro { color:#404040; font-size:1.125em; line-height:1.779; font-weight:normal; } /* 18px/32px */
+
+#main .sidebar { font-size:0.850em; line-height:1.488; word-spacing:-1px; color:#999; } /* 14px/20px */
+
+#main .sosumi { margin:0 auto 15px auto; color:#999; font-size:0.785em !important; line-height:1.1em; }
+
+
+/* links */
+#main a { cursor:pointer; }
+#main a.block { color:#000; }
+
+a.more,
+em.more,
+span.more { display:inline-block; padding-right:.7em; line-height:1.71; line-height:1\9; *line-height:1.5; background-image:url(http://images.apple.com/v/environment/b/images/more_16.png); background-position:100% 55%; *background-position:100% 60%; background-size:6px 11px; }
+
+a.more.font-10,
+em.more.font-10,
+span.more.font-10 { background-image:url(http://images.apple.com/v/environment/b/images/more_10.png); background-size:4px 7px; }
+
+a.more.font-14,
+em.more.font-14,
+span.more.font-14 { background-image:url(http://images.apple.com/v/environment/b/images/more_14.png); background-size:5px 9px; }
+
+a.more.font-18,
+em.more.font-18,
+span.more.font-18 { background-image:url(http://images.apple.com/v/environment/b/images/more_18.png); background-size:7px 13px; }
+
+@media only screen {
+	a.more,
+	em.more,
+	span.more,
+	a.more.font-10,
+	em.more.font-10,
+	span.more.font-10,
+	a.more.font-14,
+	em.more.font-14,
+	span.more.font-14,
+	a.more.font-16,
+	em.more.font-16,
+	span.more.font-16,
+	a.more.font-18,
+	em.more.font-18,
+	span.more.font-18 { background-image:url(/v/environment/b/images/more.svg);
+	}
+}
+
+a.link-block { text-decoration:none; color:#333; cursor:pointer; display:block; }
+a.link-block:hover span.more { text-decoration:underline; }
+
+/* product header */
+#productheader { position:absolute; left:50%; margin-left:-490px; z-index:2; top:71px; border-bottom:1px solid rgba(256, 256, 256, 0.5); *border-bottom:1px solid #fff; }
+#productheader h2 { margin-left:0; }
+#productheader h2 a { margin-top:2px; text-indent:0;  }
+#productheader h2 a .dark { display:none; }
+#productheader ul li a { margin-left:21px; color:#fff; }
+#productheader ul li:last-child a { margin-right:0; }
+
+#climatechange    #pn-climate-change a,
+#toxins           #pn-toxins a,
+#resources        #pn-finite-resources a,
+#ourprogress      #pn-our-progress a { color:#666 !important; cursor:default; }
+
+#overview         #productheader h2 a .light,
+#climatechange    #productheader h2 a .light,
+#ourprogress      #productheader h2 a .light,
+#faq              #productheader h2 a .light,
+#reports          #productheader h2 a .light { display:none; }
+
+#overview         #productheader h2 a .dark,
+#climatechange    #productheader h2 a .dark,
+#ourprogress      #productheader h2 a .dark,
+#faq              #productheader h2 a .dark,
+#reports          #productheader h2 a .dark { display:block; }
+
+#overview         #productheader ul li a,
+#climatechange    #productheader ul li a,
+#ourprogress      #productheader ul li a,
+#faq              #productheader ul li a,
+#reports          #productheader ul li a { color:#333; }
+
+#overview         #productheader ul li a:hover,
+#climatechange    #productheader ul li a:hover,
+#ourprogress      #productheader ul li a:hover,
+#faq              #productheader ul li a:hover,
+#reports          #productheader ul li a:hover { color:#08c; }
+
+#overview         #productheader,
+#climatechange    #productheader,
+#ourprogress      #productheader,
+#faq              #productheader,
+#reports          #productheader { border-bottom-color:#555; }
+
+
+/* gallery */
+.content .gallery { *position:static; }
+.gallery:after,
+.gallery-view:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+.gallery .gallery-view,
+.gallery .gallery-content { width:100%; position:relative; z-index:1000; }
+.gallery .gallery-content { top:0; left:0; display:none; }
+.gallery .gallery-view .gallery-content { display:block; }
+
+/* outer dot nav */
+.gallery .outer-dot-nav { position:absolute; z-index:1012; left:0; width:100%; margin:0; padding:0; bottom:40px; text-align:center; line-height:1px; }
+.gallery .outer-dot-nav li,
+.gallery .outer-dot-nav li a { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; }
+.gallery .outer-dot-nav li { position:relative; z-index:1; margin:0 8px; width:12px; height:24px; padding:0; line-height:0; }
+.gallery .outer-dot-nav li a { position:absolute; z-index:1; bottom:6px; left:2px; width:8px; height:8px; background:#333; outline:none; text-indent:-99999px; cursor:default;
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+}
+.gallery .outer-dot-nav li a:hover { cursor:pointer; background:#333; }
+.gallery .outer-dot-nav li a.active { cursor:default; top:8px; left:0; width:10px; height:10px; border:1px solid #08c; background-color:transparent; }
+
+.gallery .outer-dot-nav.white li a { background:#fff; }
+.gallery .outer-dot-nav.white li a.active { background-color:transparent; border:1px solid #fff; }
+
+
+/* paddle-nav */
+.paddle-nav li .arrow { display:block; margin:0; width:350px; height:200px; position:absolute; z-index:1002; top:0; opacity:0; outline:none; cursor:pointer; *background-image:url(http://images.apple.com/global/elements/blank.gif); filter:alpha(opacity=050);
+	-webkit-transition:0.25s opacity linear;
+	   -moz-transition:0.25s opacity linear;
+	        transition:0.25s opacity linear;
+}
+.paddle-nav { width:100%; }
+.paddle-nav li { position:absolute; z-index:1002; top:0; left:0; width:100%; _display:none; }
+.paddle-nav li .arrow:hover { opacity:1; filter:alpha(opacity=100); }
+.paddle-nav li .arrow.disabled { display:none; }
+.paddle-nav li .arrow b { display:block; margin-top:-65px; top:50%; position:absolute; z-index:1002; width:68px; height:131px; background:no-repeat 50% 50%; behavior:url(/global/scripts/lib/ie7pngfix.htc); -webkit-transform:translateZ(0); }
+.paddle-nav li .arrow { height:650px; }
+.paddle-nav li .arrow.previous { left:90px; *left:0; }
+.paddle-nav li .arrow.previous b { left:50%; margin-left:-34px; background-image:url(http://images.apple.com/v/environment/b/images/paddle_prev.png); }
+.paddle-nav li .arrow.next { right:90px; *right:0; }
+.paddle-nav li .arrow.next b { right:50%; margin-right:-34px; background-image:url(http://images.apple.com/v/environment/b/images/paddle_next.png); }
+
+.paddle-nav.white li .arrow.previous b { background-image:url(http://images.apple.com/v/environment/b/images/paddle_prev_white.png); }
+.paddle-nav.white li .arrow.next b { background-image:url(http://images.apple.com/v/environment/b/images/paddle_next_white.png); }
+
+@media only screen and (min-width:1160px) {
+	.paddle-nav li .arrow.previous { left:0; }
+	.paddle-nav li .arrow.next { right:0; }
+}
+@media only screen and (min-width:1300px) {
+	.paddle-nav li .arrow.previous { left:-65px; }
+	.paddle-nav li .arrow.next { right:-65px; }
+}
+@media only screen and (max-device-width:768px) {
+	.gallery .paddle-nav li .arrow { display:none; }
+}
+
+
+/* toggle-nav */
+#main .toggle-nav { position:relative; bottom:0; left:0; margin:0 auto; width:100%; text-align:center; z-index:1; }
+#main .toggle-nav li,
+#main .toggle-nav li a { display:-moz-table-cell; display:inline-block; *display:inline; *zoom:1; outline:none; }
+
+/* Common Styles
+------------------------*/
+
+/* hero */
+#main .hero { position:relative; z-index:1; left:50%; margin-left:-720px; width:1440px; text-align:center; }
+#main .hero .hero-image { display:block; }
+#main .hero .headline { position:absolute; z-index:2; left:50%; top:268px; width:980px; margin-left:-490px; text-align:center; }
+#main .hero .intro {  margin:0 auto; padding:64px 0 58px; width:980px; text-align:center; }
+#main .hero .caption { position:absolute; z-index:2; top:609px; width:100%; background-color:rgba(0,0,0,0.34); *display:block; *background-color:#333; *margin-left:-720px; }
+#main .hero .caption p { margin:11px auto; padding:0; font-size:0.800em; line-height:1.520em; color:#fff; text-align:center; }
+
+#main .more.more-space { margin-top:10px; }
+
+.environment .intro-block { display:block; margin:0 auto 50px; width:860px; text-align:center; text-decoration:none; color:#333;  }
+.environment .intro-block:hover .more { text-decoration:underline; }
+
+/* captions */
+#main .caption-container { position:relative; overflow:hidden; z-index:1; margin-left:-230px; width:1440px; height:650px; }
+#main .caption-container .caption { position:absolute; z-index:2; bottom:0; left:0; width:100%; background-color:rgba(0,0,0,0.6); *display:block; *background-color:#333; }
+#main .caption-container .caption p { margin:11px auto; padding:0; font-size:0.800em; line-height:1.520em; color:#fff; text-align:center; }
+
+/* video */
+#main video,
+#main .movie { position:relative; }
+
+/* video takeover */
+body.page-hidden { display:none; }
+.moviePanel { position:relative; z-index:2; width:848px !important; height:480px !important; }
+.moviePanel + .close { position:absolute; z-index:1; top:0; right:0; bottom:0; left:0; background:#fff; }
+.moviePanel + .close span { position:absolute; z-index:1; top:40px; left:40px; width:30px; height:30px; background:#fff url(http://images.apple.com/v/environment/b/images/close.png) no-repeat 0 0; background-size:30px 60px; }
+@media only screen and (min-device-width:768px) { /* desktop */
+	.moviePanel + .close span:hover { background-position:0 -30px; }
+}
+@media only screen { /* svg */
+	.moviePanel + .close span { background-image:url(http://images.apple.com/v/environment/b/images/close.png); }
+}
+@media only screen and (max-device-width:768px) { /* device */
+	body > .gallery-view { position:fixed; z-index:1; top:0; right:0; bottom:0; left:0; }
+	body > .gallery-view .gallery-content-movie { height:100% !important; padding-top:0 !important; }
+	body > .gallery-view .moviePanel { position:fixed; }
+	body > .gallery-view .moviePanel + .close { position:fixed; }
+}
+
+
+/* Page Specific
+------------------------*/
+
+/* Overview */
+#overview .hero,
+#overview .hero .gallery-content,
+#overview .hero .gallery-video { height:954px; }
+#overview .hero .gallery-hero-video { display:block; z-index:1; }
+#overview .hero .headline { top:200px; }
+#overview .hero .intro { position:absolute; z-index:2; left:50%; top:306px; width:980px; margin-left:-490px; text-align:center; }
+#overview .hero .watch-cta { position:absolute; z-index:2; width:980px; margin-left:-490px; height:42px; overflow:hidden; bottom:323px; left:50%; *height:42px; }
+#overview .hero .watch-cta img { margin:0; }
+#overview .hero .watch-cta:hover img { margin-top:-42px; }
+
+#overview .climate-change .caption { font-weight:bold; color:#999; }
+
+#overview .climate-change #wattage-fallback { margin:75px 0 61px; }
+#overview .climate-change #wattage-animation { display:none; margin:75px 0 61px; width:980px;}
+#overview .climate-change #wattage-animation p { margin-bottom:40px;}
+#overview .climate-change #wattage-animation ul { list-style-type:none; margin:0; padding:0; }
+#overview .climate-change #wattage-animation ul li { width:156px; height:450px; float:left; text-align:center; position:relative; }
+#overview .climate-change #wattage-animation .imac-1998 { width:233px; }
+#overview .climate-change #wattage-animation .imac-2001 { width:173px; margin:0 22px;}
+#overview .climate-change #wattage-animation .imac-2001 .imac { margin-right:-45px;}
+#overview .climate-change #wattage-animation .imac-2007 { width:156px; margin:0 23px;}
+#overview .climate-change #wattage-animation .imac-2009 { width:156px; margin:0 3px;}
+#overview .climate-change #wattage-animation .imac-2013 { width:156px; margin-left:10px;}
+
+#overview .climate-change #wattage-animation li figure { text-align:center; display:block;
+-webkit-transition:all 850ms cubic-bezier(0.4,0.12,0.23,1.32);
+        transition:all 850ms cubic-bezier(0.4,0.12,0.23,1.32);
+        position:relative;
+}
+#overview .climate-change #wattage-animation .imac,
+#overview .climate-change #wattage-animation figcaption {
+-webkit-transition:all 550ms cubic-bezier(0.77, 0, 0.175, 1);
+	      transition:all 550ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+#overview .climate-change #wattage-animation .out { -webkit-transform:scale(0.4, 0.4);}
+#overview .climate-change #wattage-animation .out img,
+#overview .climate-change #wattage-animation .out figcaption { opacity:0;}
+#overview .climate-change #wattage-animation .date { font-size:16px; color:#999999; position:absolute; bottom:-60px; width:100%; text-align:center;}
+#overview .climate-change #wattage-animation figcaption { text-align:center; position:absolute; bottom:0; font-size:14px;}
+
+#overview .climate-change #wattage-animation .shaper { text-align:ce; bottom:-2px; height:56px; position:absolute; width:100%;}
+#overview .climate-change #wattage-animation .shaper canvas,
+#overview .climate-change #wattage-animation .shaper .fallback { z-index:3; position:relative; left:0; display:block; margin:0 auto; opacity:0; }
+#overview .climate-change #wattage-animation .shaper canvas { z-index:3; position:relative; left:0; display:block; margin:0 auto; opacity:1; }
+#overview .climate-change #wattage-animation .shaper .base { position:relative; top:-56px; display:block; margin:0 auto; z-index:2;}
+#overview .climate-change #wattage-animation .shaper .number { opacity:1; position:relative; top:-82px; display:block; margin:0 auto;
+-webkit-transition:opacity 850ms cubic-bezier(0.4,0.12,0.23,1.32);
+	      transition:opacity 850ms cubic-bezier(0.4,0.12,0.23,1.32);}
+#overview .climate-change #wattage-animation .shaper .number.fade { opacity:0;
+-webkit-transition:opacity 850ms cubic-bezier(0.4,0.12,0.23,1.32);
+	      transition:opacity 850ms cubic-bezier(0.4,0.12,0.23,1.32);
+}
+
+#overview .toxins #toxins-animation ul { width:980px; margin:98px auto 0; }
+#overview .toxins #toxins-animation li { display:inline-block; margin:0 14px; width:130px; height:130px; border-radius:100%; *float:left; }
+#overview .toxins #toxins-animation li.mercury { background-color:#fd9b00; }
+#overview .toxins #toxins-animation li.pvc { background-color:#a18c03; }
+#overview .toxins #toxins-animation li.arsenic { background-color:#cc7e05; }
+#overview .toxins #toxins-animation li.lead { background-color:#fb4e02; }
+#overview .toxins #toxins-animation li.bfr { background-color:#bad402; }
+#overview .toxins #toxins-animation li.pthalate { background-color:#889800; }
+
+#overview .toxins .toxin-labels ul { width:980px; }
+#overview .toxins .toxin-labels li { display:inline-block; margin:8px 14px 20px; width:130px; *display:block; *float:left; }
+#overview .toxins .toxin-labels li p { text-align:center; font-weight:bold; color:#999; *letter-spacing:-1px; }
+#overview .toxins .toxin-labels li .checkmark { margin:7px 56px 6px; width:18px; }
+
+#overview .toxins #toxins-animation.show-animation li {
+	-webkit-transform:scale(0);
+	   -moz-transform:scale(0);
+	        transform:scale(0);
+}
+#overview .toxins #toxins-animation.animation li {
+	-webkit-transform:scale(1);
+	   -moz-transform:scale(1);
+	        transform:scale(1);
+	-webkit-transition-duration:500ms;
+	   -moz-transition-duration:500ms;
+	        transition-duration:500ms;
+	 -webkit-transition-timing-function:cubic-bezier(0, 0.3, 0.6, 1.2);
+		-moz-transition-timing-function:cubic-bezier(0, 0.3, 0.6, 1.2);
+			 transition-timing-function:cubic-bezier(0, 0.3, 0.6, 1.2);
+}
+
+#overview .toxins #toxins-animation.animation li:nth-child(1) {
+	-webkit-transition-delay:200ms;
+	   -moz-transition-delay:200ms;
+	        transition-delay:200ms;
+}
+#overview .toxins #toxins-animation.animation li:nth-child(2) {
+	-webkit-transition-delay:275ms;
+	   -moz-transition-delay:275ms;
+	       -transition-delay:275ms;
+}
+#overview .toxins #toxins-animation.animation li:nth-child(3) {
+	-webkit-transition-delay:350ms;
+	   -moz-transition-delay:350ms;
+	        transition-delay:350ms;
+}
+#overview .toxins #toxins-animation.animation li:nth-child(4) {
+	-webkit-transition-delay:425ms;
+	   -moz-transition-delay:425ms;
+	        transition-delay:425ms;
+}
+#overview .toxins #toxins-animation.animation li:nth-child(5) {
+	-webkit-transition-delay:500ms;
+	   -moz-transition-delay:500ms;
+	        transition-delay:500ms;
+}
+#overview .toxins #toxins-animation.animation li:nth-child(6) {
+	-webkit-transition-delay:575ms;
+	   -moz-transition-delay:575ms;
+	        transition-delay:575ms;
+}
+
+#overview .resources .row { padding-bottom:0; }
+
+#overview .progress .intro-block { width:900px; }
+
+/* Climate Change */
+#climatechange .hero .headline { top:224px; }
+
+#climatechange .measurement #footprint .container { margin:30px 0 68px; }
+#climatechange .measurement #footprint-graph { padding-top:40px; }
+#climatechange .measurement #footprint-graph .container { margin:38px 0 46px; }
+#climatechange .measurement .footprint-animation { margin:58px auto 40px; min-height:644px; }
+#climatechange .measurement .footprint-animation ul { margin:80px 0 0 38px; }
+#climatechange .measurement .footprint-animation .link-block { width:280px; margin-bottom:30px; *margin-bottom:55px; }
+#climatechange .measurement .footprint-animation li { position:relative; }
+#climatechange .measurement .footprint-animation li img,
+#climatechange .measurement .footprint-animation li p { display:inline-block; vertical-align:middle; }
+#climatechange .measurement .footprint-animation li p { padding:18px 0 0 12px; font-size:0.900em; *position:absolute; top:-10px; left:135px; }
+#climatechange .measurement .informs-thinking { width:570px; }
+
+#footprint .graph-overview { position:relative; margin-bottom:121px;}
+#footprint .hidden { opacity:0;}
+#footprint .graph-details { float:left; width:170px; }
+#footprint .graph-details li.fadeup:nth-child(1) {
+  	  	  transition-delay:100ms;
+     -moz-transition-delay:100ms;
+  -webkit-transition-delay:100ms;
+}
+#footprint .graph-details li.fadeup:nth-child(2) {
+          transition-delay:200ms;
+     -moz-transition-delay:200ms;
+  -webkit-transition-delay:200ms;
+}
+#footprint .graph-details li.fadeup:nth-child(3) {
+          transition-delay:300ms;
+     -moz-transition-delay:300ms;
+  -webkit-transition-delay:300ms;
+}
+#footprint .graph-details li.fadeup:nth-child(4) {
+          transition-delay:400ms;
+     -moz-transition-delay:400ms;
+  -webkit-transition-delay:400ms;
+}
+#footprint .graph-details li.fadeup:nth-child(5) {
+          transition-delay:500ms;
+     -moz-transition-delay:500ms;
+  -webkit-transition-delay:500ms;
+}
+
+#footprint .graph-overview .carbon_copy { position:absolute; top:0;left:0;
+          transition:all 2000ms cubic-bezier(0.165, 0.84, 0.44, 1) 350ms;
+     -moz-transition:all 2000ms cubic-bezier(0.165, 0.84, 0.44, 1) 350ms;
+  -webkit-transition:all 2000ms cubic-bezier(0.165, 0.84, 0.44, 1) 350ms;
+}
+#footprint .fadeup {opacity:1;
+          transition:all 1650ms cubic-bezier(0.165, 0.84, 0.44, 1);
+     -moz-transition:all 1650ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition:all 1650ms cubic-bezier(0.165, 0.84, 0.44, 1);
+ }
+
+
+#climatechange .facilities { padding-top:0; }
+#climatechange .facilities .grid2colb { padding:60px 0 27px; }
+#climatechange .facilities .sidebar { border-top:none; padding:0; }
+#climatechange .facilities .sidebar .facilities2010 { margin-bottom:8px; }
+
+#climatechange .data-centers .row { padding:0; }
+#climatechange .data-centers .grid2colb { *margin-top:-150px; }
+#climatechange .data-centers .grid2colb.data-centers-intro { padding-bottom:30px; *margin-top:0; }
+#climatechange .data-centers .gallery { position:relative; z-index:1; margin:0 0 40px -230px; width:1440px; }
+#climatechange .data-centers .gallery .gallery-image { display:block; }
+#climatechange .data-centers .gallery .gallery-content { position:relative; z-index:1; }
+#climatechange .data-centers .gallery figcaption { position:absolute; z-index:2; margin:0 auto; top:232px; left:395px; text-align:center; }
+#climatechange .data-centers .gallery figcaption h2 { margin:15px auto 0; }
+#climatechange .data-centers .gallery figcaption h2 img { display:inline; }
+#climatechange .data-centers .gallery figcaption p { width:650px; line-height:1.700em; color:#fff; text-align:center; }
+#climatechange .data-centers .gallery .outer-dot-nav { bottom:50px; *bottom:225px; }
+#climatechange .data-centers .gallery .paddle-nav li .arrow { height:700px; }
+
+@media only screen and (max-device-width:768px) {
+	#climatechange .data-centers .gallery { width:1440px; height:650px; overflow:hidden; }
+	#climatechange .data-centers .gallery .gallery-view { width:4320px; }
+	#climatechange .data-centers .gallery .gallery-view .gallery-content { float:left; width:1440px; position:relative; z-index:1001; -webkit-transform:translateZ(0); }
+	#climatechange .data-centers .paddle-nav { display:none; }
+}
+#climatechange .data-centers .grid2colb .sidebar { margin-top:35px; padding-top:10px; }
+
+#climatechange .campus .campus-video { display:block; position:relative; margin-bottom:3em; }
+#climatechange .campus .campus-video .campus-video-cta { position:absolute; top:254px; left:242px; }
+#climatechange .campus .campus-video .campus-video-cta:after { content: ''; position:absolute; z-index:1; left:5px; right:40px; bottom:16px; border-bottom:1px solid transparent; }
+#climatechange .campus .campus-video .campus-video-cta:hover:after { border-color:#fff; }
+
+#climatechange .product-efficiency .swipe-gallery { position:relative; margin-left:-230px; width:1440px; height:auto; padding:30px 0 0; }
+#climatechange .product-efficiency .swipe-gallery .gallery-container { width:100%; height:850px; margin:0 auto; overflow:hidden; position:relative; }
+#climatechange .product-efficiency .swipe-gallery .gallery-view { width:7200px; }
+#climatechange .product-efficiency .swipe-gallery .gallery-content { float:left; width:1440px; margin:0 auto; }
+#climatechange .product-efficiency .swipe-gallery .gallery-content figcaption { position:absolute; vertical-align:top; width:400px; margin:0 auto; }
+#climatechange .product-efficiency .swipe-gallery .gallery-content figcaption p { width:290px; padding:7px 0 0; }
+#climatechange .product-efficiency .swipe-gallery .paddle-nav li .arrow { height:740px; }
+#climatechange .product-efficiency .swipe-gallery .outer-dot-nav { margin:0 auto; bottom:90px; }
+
+/* product efficiency gallery captions */
+#climatechange .product-efficiency .swipe-gallery .hardware-gallery-caption { position:absolute; width:288px; }
+#climatechange .product-efficiency .swipe-gallery .charge { bottom:21px; left:381px; }
+#climatechange .product-efficiency .swipe-gallery .measure { bottom:30px; right:394px; }
+#climatechange .product-efficiency .swipe-gallery .magsafe { width:332px; top:187px; right:344px; }
+#climatechange .product-efficiency .swipe-gallery .total-energy { width:305px; bottom:233px; right:329px; }
+#climatechange .product-efficiency .swipe-gallery .consumption { width:313px; top:297px; left:777px; }
+#climatechange .product-efficiency .swipe-gallery .less-energy { left:328px; bottom:117px; }
+#climatechange .product-efficiency .swipe-gallery .idle-power { top:187px; left:328px; }
+#climatechange .product-efficiency .swipe-gallery .sleep-power { top:325px; left:328px; }
+#climatechange .product-efficiency .swipe-gallery .desktop { left:326px; bottom:105px; }
+#climatechange .product-efficiency .swipe-gallery .idle { right:272px; bottom:121px; }
+#climatechange .product-efficiency .swipe-gallery .energy-star-requirements { bottom:104px; left:604px; }
+
+#climatechange .product-efficiency .swipe-gallery .charge img,
+#climatechange .product-efficiency .swipe-gallery .charge p,
+#climatechange .product-efficiency .swipe-gallery .measure img,
+#climatechange .product-efficiency .swipe-gallery .measure p,
+#climatechange .product-efficiency .swipe-gallery .magsafe img,
+#climatechange .product-efficiency .swipe-gallery .magsafe p,
+#climatechange .product-efficiency .swipe-gallery .total-energy img,
+#climatechange .product-efficiency .swipe-gallery .total-energy p,
+#climatechange .product-efficiency .swipe-gallery .consumption img,
+#climatechange .product-efficiency .swipe-gallery .consumption p { display:inline-block; vertical-align:middle; *float:left; }
+
+#climatechange .product-efficiency .swipe-gallery .idle-power p,
+#climatechange .product-efficiency .swipe-gallery .sleep-power p,
+#climatechange .product-efficiency .swipe-gallery .energy-star-requirements p { width:150px; }
+
+#climatechange .product-efficiency .swipe-gallery .charge p,
+#climatechange .product-efficiency .swipe-gallery .measure p { width:200px; margin-top:23px; }
+#climatechange .product-efficiency .swipe-gallery .charge img,
+#climatechange .product-efficiency .swipe-gallery .measure img,
+#climatechange .product-efficiency .swipe-gallery .magsafe img,
+#climatechange .product-efficiency .swipe-gallery .total-energy img,
+#climatechange .product-efficiency .swipe-gallery .consumption img { margin-right:14px; }
+#climatechange .product-efficiency .swipe-gallery .less-energy img,
+#climatechange .product-efficiency .swipe-gallery .idle-power img,
+#climatechange .product-efficiency .swipe-gallery .sleep-power img,
+#climatechange .product-efficiency .swipe-gallery .desktop img,
+#climatechange .product-efficiency .swipe-gallery .idle img,
+#climatechange .product-efficiency .swipe-gallery .energy-star-requirements img { margin-bottom:7px; }
+#climatechange .product-efficiency .swipe-gallery .magsafe p { width:206px; margin-bottom:3px; }
+#climatechange .product-efficiency .swipe-gallery .total-energy p { width:230px; margin-bottom:-12px; }
+#climatechange .product-efficiency .swipe-gallery .consumption p { width:209px; margin-bottom:-12px; }
+#climatechange .product-efficiency .swipe-gallery .less-energy p { width:230px; }
+#climatechange .product-efficiency .swipe-gallery .idle-power p { width:218px; }
+#climatechange .product-efficiency .swipe-gallery .sleep-power p { width:205px; }
+#climatechange .product-efficiency .swipe-gallery .desktop p  { width:216px; }
+#climatechange .product-efficiency .swipe-gallery .idle p { width:215px; }
+#climatechange .product-efficiency .swipe-gallery .energy-star-requirements p { width:240px; }
+#climatechange .product-efficiency .swipe-gallery .safari-power-saver p { width:230px; }
+#climatechange .product-efficiency .swipe-gallery .itunes-hd-video p { width:190px; }
+
+#climatechange .product-efficiency .grid2colb .sidebar.lightbulb { margin-bottom:48px; }
+#climatechange .product-efficiency .grid2colb .sidebar.lightbulb img { margin-left:-6px; }
+#climatechange .product-efficiency .grid2colb .sidebar.lightbulb,
+#climatechange .product-efficiency .grid2colb .sidebar.timer { padding-top:25px; }
+
+#climatechange .transportation .row { padding-bottom:0; }
+#climatechange .transportation .transportation-chart { position:relative; padding-top:4.300em; padding-bottom:5em; font-size:0.850em; color:#666; }
+#climatechange .transportation figcaption { width:980px; margin:0 auto; text-align:center; }
+#climatechange .transportation strong { color:#666; }
+#climatechange .transportation .transportation-caption { width:778px; margin:19px auto 14px; }
+#climatechange .transportation .transportation-unit-1 { position:absolute; top:74px; left:262px;  }
+#climatechange .transportation .transportation-unit-2 { position:absolute; top:177px; left:684px;  }
+
+#climatechange .recycling .row { padding-bottom:0; }
+#climatechange .recycling .caption-container { margin-top:60px; }
+
+
+/* Toxins */
+#toxins .hero { min-height:600px; }
+#toxins .hero .headline { top:219px; }
+
+#toxins .better .row { padding-bottom:0; }
+#toxins .better .grid2colb { padding-bottom:43px; }
+
+#toxins .id { width:780px; padding:106px 0 99px; }
+#toxins .id .grid3col { width:825px; margin-top:45px; padding-bottom:64px; *padding-bottom:0; }
+#toxins .id .column { width:241px; margin-left:19px; }
+#toxins .id .column.first { padding-left:1px; }
+#toxins .id .column.last { width:292px; }
+#toxins .id .column.last
+#toxins .id .id-icon,
+#toxins .id .id-description { display:inline-block; vertical-align:top; }
+#toxins .id .id-icon { margin:0 5px 0 0 }
+#toxins .id .id-description { width:165px; }
+#toxins .id .column.last .id-description { width:192px; }
+#toxins .id .id-description h4 { margin-bottom:2px; }
+#toxins .id .top-row { min-height:130px; margin-bottom:40px; }
+#toxins .id span { display:inline-block; margin:0 14px; width:47px; height:47px; border-radius:100%; *float:left; }
+#toxins .id span.mercury { background-color:#f99b00; }
+#toxins .id span.lead { background-color:#f74e05; }
+#toxins .id span.arsenic { background-color:#cc7e04; }
+#toxins .id span.pvc { background-color:#a18b04; }
+#toxins .id span.bfr { background-color:#bad403; }
+#toxins .id span.pthalate { background-color:#879700; }
+
+#toxins .substitutes.row { padding-top:5px; }
+#toxins .substitutes .swipe-gallery { margin-left:-230px; width:1440px; height:auto; padding:25px 0 0; *padding:0; }
+#toxins .substitutes .swipe-gallery .gallery-container { width:100%; height:850px; margin:0 auto; overflow:hidden; position:relative; }
+#toxins .substitutes .swipe-gallery .gallery-view { width:4320px; }
+#toxins .substitutes .swipe-gallery .gallery-content { float:left; width:1440px; margin:0 auto; }
+#toxins .substitutes .swipe-gallery .gallery-content figcaption { width:345px; margin:9px auto; text-align:center; }
+#toxins .substitutes .swipe-gallery .gallery-content figcaption img { margin-bottom:16px; }
+#toxins .substitutes .swipe-gallery .gallery-content figcaption p { position:relative; }
+#toxins .substitutes .swipe-gallery .paddle-nav li .arrow { height:771px; }
+#toxins .substitutes .swipe-gallery .paddle-nav li .arrow b { margin-top:-80px; }
+#toxins .substitutes .swipe-gallery .outer-dot-nav { bottom:70px; }
+
+#toxins .testing .row { padding:106px 0 0; }
+#toxins .testing .grid2colb { padding-bottom:38px; }
+
+/* Resources */
+#resources .hero .headline { top:229px; }
+#resources .material-efficiency { position:relative; z-index:1; width:100%; }
+#resources .material-efficiency .row { padding-top:20px; }
+#resources .material-efficiency .swipe-gallery { margin:40px 0 1px -230px; width:1440px; padding:30px 0; }
+#resources .material-efficiency .swipe-gallery .gallery-container { width:100%; overflow:hidden; position:relative; }
+#resources .material-efficiency .swipe-gallery .gallery-view { width:4320px; }
+#resources .material-efficiency .swipe-gallery .gallery-content { float:left; width:1440px; height:775px; margin:0 auto; }
+#resources .material-efficiency .swipe-gallery .paddle-nav li .arrow { height:700px; }
+
+#resources .material-efficiency .swipe-gallery .outer-dot-nav { margin:20px auto -40px; }
+#resources .material-efficiency .swipe-gallery .outer-dot-nav.blue li a.active { background:#f6f6ee; }
+#resources .material-efficiency .grid2colb h2 { margin-top:73px; }
+#resources .material-efficiency .grid2colb .sidebar { margin-top:-60px; padding-top:45px; }
+
+#resources .material-efficiency .swipe-gallery .material { width:258px; bottom:31px; left:593px; *bottom:50px; }
+#resources .material-efficiency .swipe-gallery .material img,
+#resources .material-efficiency .swipe-gallery .material p { display:inline-block; float:left; vertical-align:middle; }
+#resources .material-efficiency .swipe-gallery .material img { margin-right:8px; }
+#resources .material-efficiency .swipe-gallery .material p { width:165px; margin-top:20px; }
+#resources .material-efficiency .swipe-gallery .recycled img,
+#resources .material-efficiency .swipe-gallery .parts img { margin-bottom:-14px; }
+#resources .material-efficiency .swipe-gallery .recycled p,
+#resources .material-efficiency .swipe-gallery .parts p { width:195px; }
+#resources .material-efficiency .swipe-gallery .recycled { bottom:63px; left:327px; }
+#resources .material-efficiency .swipe-gallery .parts { bottom:48px; right:359px; }
+#resources .material-efficiency .swipe-gallery .aluminum-steel p,
+#resources .material-efficiency .swipe-gallery .speaker p { width:200px; margin-top:-13px; }
+#resources .material-efficiency .swipe-gallery .aluminum-steel { top:188px; left:328px; }
+#resources .material-efficiency .swipe-gallery .speaker { bottom:273px; left:322px; }
+#resources .material-efficiency .swipe-gallery .speaker p { width:210px; margin:-8px 0 0 8px; }
+
+#resources .durability .gallery-view { width:980px; margin:0 auto; }
+#resources .durability .gallery-view .endState { margin-left:-66px; }
+#resources .durability .gallery-view .endState img { position:relative; }
+#resources .durability .gallery-view .endState .cta-play { width:980px }
+#resources .durability .cta-play { position:absolute; top:250px; left:0; width:100%; text-align:center; }
+#resources .durability figcaption { width:600px; position:absolute; top:680px; left:180px; font-size:0.75em; }
+#resources .durability .toggle-nav { position:relative; bottom:0; left:0; margin:10px auto 108px; width:100%; text-align:center; z-index:1; *margin:-35px auto 140px; }
+#resources .durability .toggle-nav li { margin:0; }
+#resources .durability .toggle-nav li,
+#resources .durability .toggle-nav li a { display:-moz-table-cell; display:inline-block; *display:inline; *zoom:1; outline:none; }
+#resources .durability .toggle-nav li a { min-width:0; width:90px; height:90px; padding:0; text-decoration:none; border:2px solid #fff; border-radius:100%; background:#fff;
+	-webkit-transition:border 200ms ease-in-out;
+	-moz-transition:border    200ms ease-in-out;
+	transition:border         200ms ease-in-out;
+}
+#resources .durability .toggle-nav li a:hover { border-color:#eee; }
+#resources .durability .toggle-nav li a img { margin:5px;
+	-webkit-border-radius:100%;
+			border-radius:100%;
+}
+#resources .durability .toggle-nav li a.active { text-decoration:none; cursor:default; border-color:#2587d3;
+	-webkit-transition:border 500ms ease-in-out;
+	-moz-transition:border    500ms ease-in-out;
+	transition:border         500ms ease-in-out;
+}
+
+#resources .durability .grid2colb .sidebar .block { margin:25px 0 10px; }
+
+#resources .recycling .row { padding-top:0; }
+#resources .recycling h2 { padding-top:48px; }
+#resources .recycling .sidebar .block { margin:25px 0 -7px; }
+
+#resources .still-working-water { padding-bottom:10px; }
+#resources .still-working-water .sidebar { padding-top:45px; }
+#resources .still-working-water .sidebar img {
+	-webkit-transition:opacity 0.3s ease-out 0s;
+	   -moz-transition:opacity 0.3s ease-out 0s;
+	        transition:opacity 0.3s ease-out 0s;
+}
+#resources .grid2colb { margin:0 auto 40px; }
+
+#resources #router { border-top:none; }
+
+
+/* Our Progress */
+#ourprogress .hero { min-height:565px; }
+#ourprogress .hero .headline { top:232px; }
+#ourprogress .hero .intro { position:absolute; z-index:2; left:50%; top:361px; width:980px; margin-left:-490px; text-align:center; }
+#ourprogress .hero .row { padding:565px 0 0 0; }
+
+#ourprogress .caption-container .caption { *left:50%; }
+
+#ourprogress .lisa .lisa-signature { padding:62px 0 15px; }
+#ourprogress .lisa .lisa-signature span { color:#999; }
+
+#ourprogress .highlights .toggle-nav { padding:45px 0 0; }
+#ourprogress .highlights .toggle-nav li a { border:2px solid transparent;
+	-webkit-transition:border 200ms ease-in-out;
+	-moz-transition:border    200ms ease-in-out;
+	transition:border         200ms ease-in-out;
+}
+#ourprogress .highlights .toggle-nav li a:hover { border-color:#ccc; }
+#ourprogress .highlights .toggle-nav li a.active { border-color:#08c;
+	-webkit-transition:border 500ms ease-in-out;
+	-moz-transition:border    500ms ease-in-out;
+	transition:border         500ms ease-in-out;
+}
+
+#ourprogress .highlights .toggle-nav a { margin:0 5px; width:150px; height:150px; background-position:50% 50%; background-size:140px 140px; background-repeat:no-repeat; border-radius:100%; }
+#ourprogress .highlights .toggle-nav a .white-wrap { width:140px; height:140px; margin:5px; border-radius:100%; }
+#ourprogress .highlights .toggle-nav a.first { margin-left:0; }
+#ourprogress .highlights .toggle-nav a.last { margin-right:0; }
+#ourprogress .highlights .toggle-nav a.nav2013 .white-wrap { background-image:url(http://images.apple.com/v/environment/b/images/progress_highlights_nav_2013_bg.jpg); }
+#ourprogress .highlights .toggle-nav a.nav2012 .white-wrap { background-image:url(http://images.apple.com/v/environment/b/images/progress_highlights_nav_2012_bg.jpg); }
+#ourprogress .highlights .toggle-nav a.nav2011 .white-wrap { background-image:url(http://images.apple.com/v/environment/b/images/progress_highlights_nav_2011_bg.jpg); }
+#ourprogress .highlights .toggle-nav a.nav2010 .white-wrap { background-image:url(http://images.apple.com/v/environment/b/images/progress_highlights_nav_2010_bg.jpg); }
+#ourprogress .highlights .toggle-nav a.nav2009 .white-wrap { background-image:url(http://images.apple.com/v/environment/b/images/progress_highlights_nav_2009_bg.jpg); }
+#ourprogress .highlights .toggle-nav a.nav2008 .white-wrap { background-image:url(http://images.apple.com/v/environment/b/images/progress_highlights_nav_2008_bg.jpg); }
+
+#ourprogress .highlights .gallery-content { margin-left:-790px; padding:0 855px; width:850px; background-color:#f6f6ee; -webkit-transform:translateZ(0); }
+#ourprogress .highlights .gallery-content.highlight-gallery-2008 { background-color:transparent; }
+#ourprogress .highlights .gallery-content h3 { width:780px; margin-left:-8px; padding-top:40px; }
+#ourprogress .highlights .gallery-content .column { width:395px; }
+#ourprogress .highlights .gallery-content ul { margin-left:10px; }
+#ourprogress .highlights .gallery-content ul p { margin:0 0 10px -6px; *margin-left:5px; }
+
+#ourprogress #router { border-top:none; }
+
+/* FAQ */
+#faq .row h2 { width:575px; font-size:2.000em; line-height:1.3888em; color:#40ad81; word-spacing:-1px; }
+#faq .hero { min-height:515px; }
+#faq .hero .headline { top:220px; }
+
+#faq .alternate.top { padding-top:50px; }
+#faq .alternate.bottom { padding-bottom:40px; }
+
+#faq .row { padding:41px 0 0 0; }
+#faq .grid2colb .first .end-answer { margin-bottom:0; padding-bottom:40px; }
+#faq .grid2colb .first h3 { margin-bottom:28px; }
+#faq .grid2colb .first ol { margin-left:24px; padding-bottom:1px; margin-top:20px; font-weight:bold; }
+#faq .grid2colb .first ol p { margin-left:-4px; font-weight:normal; *margin-left:3px; }
+
+#faq .grid2colb .sidebar { padding-top:35px; color:#888; margin-top:0; }
+#faq .grid2colb .sidebar.steps { color:#888; margin-top:30px; }
+#faq .grid2colb .sidebar h4 { color:#31cec5; font-weight:bold; }
+#faq .grid2colb .sidebar ul { padding-left:18px; }
+#faq .grid2colb .sidebar ul li { list-style-type:square; padding-top:10px; }
+#faq .grid2colb .sidebar ul li,
+#faq .grid2colb .sidebar p { color:#666; width:155px; }
+
+
+/* Reports */
+#reports .hero { min-height:730px; }
+#reports .hero .headline { top:227px; }
+#reports .hero .intro { position:relative; z-index:2; top:440px; }
+
+#reports .categories { margin-bottom:70px; }
+#reports .categories .row { padding:70px 0 55px; }
+#reports .categories .grid4col { width:800px; margin-left:100px; padding-top:30px; }
+#reports .categories .grid4col h3 { margin-bottom:0; color:#333; }
+#reports .categories .grid4col p { width:165px; }
+
+#reports #main .grid2colb { margin-bottom:70px; }
+#reports #main .grid2colb .column.first { width:590px; }
+#reports #main .grid2colb .column.first p.short { width:540px; }
+
+#reports { padding-bottom:0; }
+#reports .productlist { width:780px; }
+#reports .productlist .column { width:230px !important; margin-left:30px; padding-left:10px; }
+
+#reports .productlist h2, h4 { font-weight:normal; color:#333; }
+#reports .productlist h2 { width:780px; margin-bottom:30px; padding:60px 0 5px; border-bottom:solid 1px #ccc; font-size:21px; font-weight:normal; }
+#reports .productlist h4 { margin-bottom:0; font-size:15px; line-height:20px; }
+
+#reports .productlist p { color:#888; font-size:15px; line-height:25px; }
+#reports .productlist a { text-decoration:none; }
+#reports .productlist a:hover h4,
+#reports .productlist a:hover p { color:#08c; text-decoration:none; }
+#reports .productlist .column.row2 { padding-top:50px; }
+
+#reports .productlist .iphones h2 { margin-top:100px; *margin-top:0px; }
+#reports .productlist .iphones h4 { margin-top:25px; }
+
+#reports .productlist .ipads h4 { margin-top:25px; }
+#reports .productlist .ipads .column.row2 h4 { margin-top:12px; *margin-top:40px; }
+#reports .productlist .ipads .column.first img.left { margin-right:25px; }
+
+#reports .productlist .ipods h4 { margin-top:27px; margin-right:-20px; *zoom:1; *cursor:pointer; }
+#reports .productlist .ipods .column.row2 h4 { margin-top:30px; *margin-top:80px; }
+
+#reports .productlist .notebooks h4 { margin-left:100px; }
+#reports .productlist .notebooks .column.row2 h4 { margin-top:-5px; }
+
+#reports .productlist .desktops h4 { margin-top:25px; }
+#reports .productlist .desktops .column.row2 h4 { margin-top:20px; *margin-top:60px; }
+
+#reports .productlist .airport h4 { margin-top:15px; }
+#reports .productlist .appletv h4 { margin-top:30px; }
+#reports .productlist .servers h4 { margin-top:20px; }
+#reports .productlist .servers .column.first img.left { margin-top:40px; }
+
+#reports #archive { font-size:12px; line-height:18px; vertical-align:top; }
+#reports #archive .expandable { margin-bottom:25px; }
+#reports #archive .expandable .expandable-content { margin-left:5px; overflow:hidden;
+	-webkit-transition:height 0.5s ease-in-out;
+	   -moz-transition:height 0.5s ease-in-out;
+	        transition:height 0.5s ease-in-out; }
+#reports #archive .show-reports-text,
+#reports #archive .hide-reports-text { display:none; }
+#reports #archive h2 { margin-bottom:29px; padding:21px 0 5px; border-bottom:solid 1px #ccc; font-size:21px; font-weight:normal; }
+#reports #archive h3 { font-size:14px; padding:5px; border-bottom:1px solid #e5e5e5; }
+#reports #archive h4 { font-size:12px; margin:10px 0 2px 0; color:#666; font-weight:normal; }
+
+#reports #archive .expandable a.more { margin-left:10px; font-size:0.857em; cursor:pointer; }
+#reports #archive .expandable.open a.more { padding-right:12px; background-image:url(http://images.apple.com/v/environment/b/images/arrow_down.png) 100% 60% no-repeat; background-size:9px 5px; *background:url(http://images.apple.com/v/environment/b/images/arrow_down.png) 100% 60% no-repeat; }
+
+#reports #archive li a { color:#000; font-weight:bold; }
+#reports #archive li a:hover,
+#reports #archive li a:hover span { color:#08c; cursor:pointer; }
+#reports #archive li a span { color:#666; font-weight:normal; }
+#reports #archive li a span.block { display:inline-block; width:125px; }
+
+#reports #main .footer p { margin-bottom:20px; }
+#reports #main .footer a:hover span { text-decoration:underline; }
+#reports #main .footer .row { padding:111px 0 20px; }
+#reports #main .footer .grid2colb { margin:0 0 0 100px; width:780px; }
+#reports #main .footer .grid3col { border-top:1px solid #ccc; }
+#reports #main .footer .grid3col .column.first,
+#reports #main .footer .grid3col .column { margin:0; padding:50px 0; width:245px; }
+#reports #main .footer .grid3col .column.middle { margin-left:20px; }
+@media only screen {
+	#reports #archive .expandable.open a.more { background-image:url(/v/environment/b/images/arrow_down.svg); }
+}
+
+
+/* Router Include
+------------------------*/
+#router { margin:0 auto; padding:90px 0 35px; width:980px; border-top:1px solid #eee; }
+#router .grid2col { width:100% }
+#router .column { width:410px; }
+#router .column.last { margin-right:66px; }
+#router .column img { float:left; margin-right:14px; }
+#router .column h3,
+#router .column p { font-size:14px; line-height:21px; }
+
+
+/* FAQs/Reports footer
+------------------------*/
+#faq-reports-footer.row { padding:25px 0; *margin-bottom:-70px; *padding:70px 0 0; }
+#faq-reports-footer .link-block { margin:50px auto; }
+#faq-reports-footer img { margin:-20px 16px 0 0; float:left; }
+#router .column p { font-size:14px; line-height:21px; }
+
+#reports #faq-reports-footer .link-block { width:900px; *width:980px; }
+#faq #faq-reports-footer .link-block { width:850px; *width:850px; }
+
+
+/* sosumi */
+.sosumi { margin:24px auto 18px; width:940px; padding:25px 20px 0; border-top:1px solid #ccc; }
+.sosumi a { color:#333; }
+.sosumi ol { margin:0; padding-right:21px; padding-left:21px; }
+.sosumi ul { margin:0; }
+.sosumi li { padding-bottom:5px; }
+.sosumi small { font-size:1em; }
