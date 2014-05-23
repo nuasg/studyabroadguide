@@ -1,29 +1,29 @@
 $( document ).ready(function() {
 
 var programs = {
-	'AR' : 4,
-	'AT' : 2,
-	'AU' : 4,
-	'BE' : 1,
-	'BO' : 2,
-	'BR' : 2,
-	'CA' : 1,
-	'CH' : 1,
-	'CL' : 4,
+	'AR' : 8,
+	'AT' : 8,
+	'AU' : 8,
+	'BE' : 8,
+	'BO' : 8,
+	'BR' : 8,
+	'CA' : 8,
+	'CH' : 8,
+	'CL' : 8,
 	'CN' : 8,
-	'CR' : 1, 
+	'CR' : 8, 
 	//'CU' : 2
-	'CZ' : 5, 
-	'DE' : 7,
-	'DK' : 1,
-	'DM' : 1,
-	'DO' : 1, 
-	'EC' : 3,
-	'EG' : 2,
-	'ES' : 6,
+	'CZ' : 8, 
+	'DE' : 8,
+	'DK' : 8,
+	'DM' : 8,
+	'DO' : 8, 
+	'EC' : 8,
+	'EG' : 8,
+	'ES' : 8,
 	'FR' : 15,
 	'GB' : 13,
-	'GH' : 1,
+	'GH' : 8,
 	'GR' : 1,
 	'HU' : 1,
 	'IE' : 2,
@@ -34,22 +34,22 @@ var programs = {
 	'JP' : 6,
 	'KR' : 2,
 	'MA' : 1,
-	'MG' : 1,
-	'MX' : 1,
-	'NI' : 1,
-	'NL' : 1,
-	'NZ' : 2,
-	'PE' : 1,
-	'QA' : 1,
-	'RU' : 1, 
-	'SN' : 1,
-	'TH' : 1,
-	'TR' : 2,
-	'TZ' : 1,
-	'UG' : 2,
-	'UY' : 1,
-	'VN' : 1,
-	'ZA' : 4,
+	'MG' : 8,
+	'MX' :8,
+	'NI' : 8,
+	'NL' : 8,
+	'NZ' : 8,
+	'PE' : 8,
+	'QA' : 8,
+	'RU' : 8, 
+	'SN' : 8,
+	'TH' : 8,
+	'TR' : 8,
+	'TZ' : 8,
+	'UG' : 8,
+	'UY' : 8,
+	'VN' : 8,
+	'ZA' : 8,
 };
 
 
@@ -82,9 +82,9 @@ $('#map').vectorMap({
     // marker styles
     markerStyle: {
       initial: {
-        fill: '#F8E23B',
+        fill: '#D455E5',
         stroke: '#383f47',
-        r: 7
+        r: 5
       }
     },
 
@@ -108,6 +108,7 @@ $('#map').vectorMap({
 
 	onMarkerClick: function(e, code) {
 		if (code==1) {window.location.replace("london.html");}
+		else if (code==2) {window.location.replace("buenos-aires.html");}
     	}
     }); 
 
