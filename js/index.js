@@ -1,7 +1,23 @@
 $( document ).ready(function() {
 
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('.page-scroll a').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+
+// Highlight the top nav as scrolling occurs
+$('body').scrollspy({
+    target: '.navbar-fixed-top'
+})
+
 var programs = {
-	'AR' : 8,
+	/*'AR' : 8,
 	'AT' : 8,
 	'AU' : 8,
 	'BE' : 8,
@@ -49,7 +65,7 @@ var programs = {
 	'UG' : 8,
 	'UY' : 8,
 	'VN' : 8,
-	'ZA' : 8,
+	'ZA' : 8,*/
 };
 
 
@@ -59,8 +75,7 @@ $('#map').vectorMap({
 
 	// initial country color
 	regionStyle: {
-	  //initial: {fill: '#DCF3FF',},
-	  initial: {fill: '#eee',},
+	  initial: {fill: '#8F8E89',},
 	},
 
 	// initial color from data
@@ -82,7 +97,7 @@ $('#map').vectorMap({
     // marker styles
     markerStyle: {
       initial: {
-        fill: '#D455E5',
+        fill: '#E5323F',
         stroke: '#383f47',
         r: 5
       }
