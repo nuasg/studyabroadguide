@@ -25,15 +25,16 @@ h2 {
 }
 
 
-#program h1 { color: PaleVioletRed; }
-#eating h1 { color: Orange; }
-#nightlife h1 { color: YellowGreen; }
+#program h1 { color: Orange; }
+#eating h1 { color: YellowGreen; }
+#nightlife h1 { color: PaleVioletRed; }
 #travelling h1 { color: SteelBlue; }
 #tips h1 { color: Teal; }
 #contribute h1 { color: Chocolate; }
 
 #program .extra-margin { margin-left: 40px; }
 #contribute .extra-margin { margin-bottom: 40px; }
+
 
 #hero {
     background-image: url(../img/buenos-aires-2.jpg);
@@ -107,13 +108,16 @@ h2 {
 }
 
 .li-text, .caption, .tip-text  { 
-    font-size: 1.1em;
+
+    font-size: 16px;
     line-height: 1.8;
 }
 
-.li-text b { 
-    position: relative;
-    left: -20px;
+
+
+.li-text b {
+    font-weight: lighter; 
+    font-size: 22px;
 }
 
 
@@ -153,6 +157,12 @@ h2 {
     margin-top: 80px; 
 }
 
+
+#nightlife {
+    background-color: #000440;
+    color: #fff;
+}
+
 #gallery { 
     padding: 0; 
     margin-bottom: -40px;
@@ -186,11 +196,9 @@ h2 {
 .tip-box { margin-top: 20px; }
 .tip-text {
     width: 250px;
-    margin-left: 20px;
+    margin-left: 30px;
     display: inline-block;
 }
-
-.tip-text b { font-size: 1.2em; }
 
 .form-control {
     height: 75px;
