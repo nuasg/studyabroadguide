@@ -60,7 +60,7 @@ h2 {
 
 
 .round-image {
-    margin: 20px 20px; 
+    margin-bottom: 20px; 
     padding: 5px;
     border-radius:100%;
     width:140px;
@@ -69,18 +69,24 @@ h2 {
 }
 
 
-#program .nav-tabs {border: none;}
+#program .nav-tabs {
+    border: none;
+    margin: 0px auto;
+    width: 650px;
+    position: relative;
+    left: 25px;
+}
+
 #program a, 
 #program a:hover,
 #program a:focus {
     background-color: transparent;
     text-decoration: none;
     border: none;
+    width: 200px;
+    height: 200px;
 }
 
-#program li { 
-    width: 200px;
-}
 
 #program li img{ 
     border: 2px solid transparent; 
