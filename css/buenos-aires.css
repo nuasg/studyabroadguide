@@ -47,13 +47,12 @@ h2 {
 .bg-color { background-color: #f6f6ee; }
 
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
+.globe-image {
+    position: relative;
+    left: -10px;
+    top: -20px;
+    width: 180px;
+    display: inline;
 }
 
 .hero {
@@ -70,16 +69,6 @@ h2 {
 
 .hero-text { font-size: 18px; }
 
-
-.shrink {max-width: 150px;}
-
-.globe-image {
-    position: relative;
-    left: -20px;
-    top: -15px;
-    width: 160px;
-    display: inline;
-}
 
 .round-image {
     padding: 5px;
