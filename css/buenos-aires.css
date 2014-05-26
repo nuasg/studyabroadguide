@@ -12,8 +12,10 @@ section {
 h1, h2, .hero-heading, .caption { font-family: "Helvetica Neue"; }
 h1 {
     font-weight: 400;
-    font-size: 42px;
+    font-size: 64px;
     margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -22,10 +24,9 @@ h2 {
     margin-top: 20px;
 }
 
-.bg-color { background-color: #f6f6ee; }
 
-#program h1 { color: green; }
-#eating h1 { color: #E8D03A; }
+#program h1 { color: PaleVioletRed; }
+#eating h1 { color: Orange; }
 #nightlife h1 { color: YellowGreen; }
 #travelling h1 { color: SteelBlue; }
 #tips h1 { color: Teal; }
@@ -40,6 +41,8 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.bg-color { background-color: #f6f6ee; }
 
 .hero {
     position: relative;
@@ -57,7 +60,7 @@ h2 {
 
 
 .round-image {
-    margin: 50px 20px; 
+    margin: 20px 20px; 
     padding: 5px;
     border-radius:100%;
     width:140px;
@@ -65,39 +68,25 @@ h2 {
     display: inline-block;
 }
 
-/*
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+
+#program .nav-tabs {border: none;}
+#program a, 
+#program a:hover,
+#program a:focus {
     background-color: transparent;
-    border: none;
-}
-
-.nav>li>a:hover, .nav>li>a:focus {
-    border: none;
-    background-color: transparent;
-}
-.nav-tabs {
-    border: none;
-}
-
-*/
-
-#program .nav-tabs>li.active>a, 
-#program .nav-tabs>li.active>a:hover,
-#program .nav-tabs>li.active>a:focus {
-    background-color: transparent;
-}
-
-#program .nav>li>a:hover, 
-#program .nav>li>a:focus {
     text-decoration: none;
-    background-color: transparent;
-}
-
-#program .nav-tabs>li>a {
     border: none;
 }
 
-#program img:hover  {
+#program li { 
+    width: 200px;
+}
+
+#program li img{ 
+    border: 2px solid transparent; 
+}
+
+#program li img:hover  {
     border: 2px solid #ccc;
     -webkit-transition: border 200ms ease-in-out;
     -moz-transition: border 200ms ease-in-out;
@@ -158,11 +147,11 @@ h2 {
     margin-top: 80px; 
 }
 
-#img { 
+#gallery { 
     padding: 0; 
     margin-bottom: -40px;
 } 
-#img .caption {
+#gallery .caption {
     position: relative;
     top: -40px;
     height: 40px;
