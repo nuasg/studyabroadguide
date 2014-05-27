@@ -7,24 +7,21 @@ src: url(../fonts/Quicksand-Regular.otf);
 body
 {
   	background: url(../img/bg-1.jpg) repeat top left;
-  	/*background-color: #DFDCD7;*/
-	font-family: "Lucida Grande", "Lucida Sans Unicode";
-	font-size: 1.333em;
-	line-height: 1.688;
-	color: #333;
-	}
-h1 {
-	font-family: Quicksand;
-	/*background-color: #509BBD;*/
-	/*border: 1px solid;*/
-	color: #ccc;
-	font-size: 42px;
-	font-weight: normal;
-	letter-spacing: -0.05em;
-	margin-bottom: 50px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode";
+    font-size: 1.333em;
+    line-height: 1.688;
+    color: #333;
 }
 
 a {text-decoration:none;}
+
+.navbar-brand {
+	font-size: 2.0em;
+}
+
+.navbar-nav {
+	font-size: 1.3em;
+}
 
 .globe-image {
     position: relative;
