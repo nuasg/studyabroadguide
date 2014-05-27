@@ -1,14 +1,9 @@
-@font-face
-{
-font-family: Quicksand;
-src: url(../fonts/Quicksand-Regular.otf);
-}
-
 body
 {
   	background: url(../img/bg-1.jpg) repeat top left;
-    font-family: "Lucida Grande", "Lucida Sans Unicode";
-    font-size: 1.333em;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
     line-height: 1.688;
     color: #333;
 }
