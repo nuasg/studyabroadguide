@@ -1,0 +1,12 @@
+#hero {
+	color: #fff;
+    background-image: url(../img/paris-2.jpg);
+ /*   color: #000;
+    background-image: url(../img/paris-1.jpg);*/
+    background-position: 0px 30px;
+}
+
+#gallery {
+    background-image: url(../img/paris-3.jpg);
+    background-position: 0px -100px;
+}
