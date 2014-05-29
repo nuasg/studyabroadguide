@@ -2,7 +2,9 @@ $( document ).ready(function() {
 
 $( "#submit" ).click(function() {
   $('#myModal').modal('hide');
-  $('#thank-you').modal('show');
+  setTimeout(function (){
+    $('#thank-you').modal('show');
+         }, 300); // how long do you want the delay to be? 
 }); 
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
