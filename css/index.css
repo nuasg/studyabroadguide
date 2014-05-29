@@ -50,20 +50,9 @@ button.add-content {
 }
 
 
-#thank-you { top: 30%; }
-#thank-you .close {
-    position: relative;
-    right: -30px;
-    top: -40px;
-    font-weight: lighter;
-    color: red;
-}
+#thank-you { top: 20%; }
 
 #map {
 	margin: 100px 30px 0px 30px;
   	width: auto; height: 530px;
-}
-
-#thank-you h2 {
-    margin-top: 60px;
 }
