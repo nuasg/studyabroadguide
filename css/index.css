@@ -28,6 +28,13 @@ a {text-decoration:none;}
     display: inline;
 }
 
+
+button.add-content {
+    height: 50px;
+    border-top: 2px solid #2c3e50;
+}
+
+
 .modal-dialog {
     width: 800px;
 }
@@ -43,5 +50,5 @@ a {text-decoration:none;}
 
 #map {
 	margin: 100px 30px 0px 30px;
-  	width: auto; height: 525px;
+  	width: auto; height: 530px;
 }
