@@ -1,5 +1,10 @@
 $( document ).ready(function() {
 
+$( "#submit" ).click(function() {
+  $('#myModal').modal('hide');
+  $('#thank-you').modal('show');
+}); 
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
@@ -76,6 +81,6 @@ $('#map').vectorMap({
 		else if (code==1) {window.location.replace("london.html");}
 		else if (code==2) {window.location.replace("buenos-aires.html");}
     	}
-    }); 
+});
 
 });
