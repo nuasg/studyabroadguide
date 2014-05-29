@@ -150,6 +150,7 @@ h2 {
 }
 .sidebar .sidebox-3 { 
     border-top: 2px solid PaleVioletRed; 
+    margin-top: 30px;
 }
 .sidebar .sidebox-4 { 
     border-top: 2px solid Teal; 

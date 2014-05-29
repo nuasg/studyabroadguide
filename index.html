@@ -5,14 +5,14 @@
   <!--  CSS  -->
   <link rel="stylesheet" href="css/jquery-jvectormap.css" type="text/css" media="screen"/>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/index.css">
   <!--  Javascript -->
   <script src="js/jquery-1.10.2.js"></script>
   <script src="js/jquery-jvectormap.min.js"></script>
   <script src="js/world-map.js"></script>
-  <script src="js/index.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -58,5 +58,48 @@
 
 </div>
 <div id="map"></div>
+
+<!-- Button trigger modal -->
+<button class="submit-button" data-toggle="modal" data-target="#myModal">
+ See something missing?
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size:30px;">&times;</button>
+
+          <div class="row" id="contribute" class="bg-color">
+            <div class="col-md-12">
+              <h1> Contribute </h1>
+              <h2 class="extra-margin"> See something missing? Let us know! </h2>
+            </div> <!--column-->
+          </div> <!--row-->
+          <div class="row">
+              <div class="col-lg-6">
+                  <form role="form">
+                      <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Your Name">
+                          <input type="text" class="form-control" placeholder="Your City and Program">
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
+                      </div>
+                  </form>
+              </div> <!-- col -->
+              <div class="col-lg-6">
+                  <div class="form-group">
+                      <textarea class="form-control" rows="7" placeholder="Shoot your ideas"></textarea>
+                  </div>
+                  <button class="submit-button">Send it away!</button>
+              </div>  <!-- col -->
+          </div> <!-- row -->
+
+      </div> <!-- modal-body -->
+  </div> <!-- modal-content -->
+</div> <!-- modal-dialog -->
+</div> <!-- modal -->
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 </body>
 </html>
