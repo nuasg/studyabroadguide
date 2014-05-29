@@ -16,57 +16,7 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
-var programs = {
-	/*'AR' : 8,
-	'AT' : 8,
-	'AU' : 8,
-	'BE' : 8,
-	'BO' : 8,
-	'BR' : 8,
-	'CA' : 8,
-	'CH' : 8,
-	'CL' : 8,
-	'CN' : 8,
-	'CR' : 8, 
-	//'CU' : 2
-	'CZ' : 8, 
-	'DE' : 8,
-	'DK' : 8,
-	'DM' : 8,
-	'DO' : 8, 
-	'EC' : 8,
-	'EG' : 8,
-	'ES' : 8,
-	'FR' : 15,
-	'GB' : 13,
-	'GH' : 8,
-	'GR' : 1,
-	'HU' : 1,
-	'IE' : 2,
-	'IL' : 5,
-	'IN' : 6,
-	'IT' : 7,
-	'JM' : 2,
-	'JP' : 6,
-	'KR' : 2,
-	'MA' : 1,
-	'MG' : 8,
-	'MX' :8,
-	'NI' : 8,
-	'NL' : 8,
-	'NZ' : 8,
-	'PE' : 8,
-	'QA' : 8,
-	'RU' : 8, 
-	'SN' : 8,
-	'TH' : 8,
-	'TR' : 8,
-	'TZ' : 8,
-	'UG' : 8,
-	'UY' : 8,
-	'VN' : 8,
-	'ZA' : 8,*/
-};
+var programs = {};
 
 
 $('#map').vectorMap({
@@ -122,7 +72,8 @@ $('#map').vectorMap({
 	},
 
 	onMarkerClick: function(e, code) {
-		if (code==1) {window.location.replace("london.html");}
+		if (code==0) {window.location.replace("paris.html");}
+		else if (code==1) {window.location.replace("london.html");}
 		else if (code==2) {window.location.replace("buenos-aires.html");}
     	}
     }); 
