@@ -77,23 +77,23 @@
               <h2 class="extra-margin"> See something missing? Let us know! </h2>
             </div> <!--column-->
           </div> <!--row-->
-          <div class="row">
-              <div class="col-lg-6">
-                  <form role="form">
+          <form role="form" method="post" action="send_suggestion.php">
+              <div class="row">
+                  <div class="col-lg-6">
                       <div class="form-group">
-                          <input type="text" class="form-control" placeholder="Your Name">
-                          <input type="text" class="form-control" placeholder="Your City and Program">
-                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
+                          <input name="name" type="text" class="form-control" placeholder="Your Name">
+                          <input name="program" type="text" class="form-control" placeholder="Your City and Program">
+                          <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
                       </div>
-                  </form>
-              </div> <!-- col -->
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <textarea class="form-control" rows="7" placeholder="Shoot your ideas"></textarea>
-                  </div>
-                  <button id="submit" class="submit-button" >Send it away!</button>
-              </div>  <!-- col -->
-          </div> <!-- row -->
+                  </div> <!-- col -->
+                  <div class="col-lg-6">
+                      <div class="form-group">
+                          <textarea class="form-control" rows="7" placeholder="Shoot us your ideas"></textarea>
+                      </div>
+                      <input type="submit" id="submit" name="submit" class="submit-button">
+                  </div>  <!-- col -->
+              </div> <!-- row -->
+          </form>
 
       </div> <!-- modal-body -->
   </div> <!-- modal-content -->

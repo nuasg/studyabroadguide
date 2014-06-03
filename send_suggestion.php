@@ -23,7 +23,7 @@ if(IsInjected($visitor_email))
 
 $email_from = 'divirgupta2016@u.northwestern.edu';
 $email_subject = "Study Abroad Guide suggestion from $name";
-$email_body = "You have received a new message from the user $name:\n\n$message";
+$email_body = "You have received a new message from the user $name about $program:\n\n$message";
     
 $to = "divirgupta2016@u.northwestern.edu";
 $headers = "From: $email_from \r\n";
