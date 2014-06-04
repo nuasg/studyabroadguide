@@ -3,7 +3,7 @@ body
   	background: url(../img/bg-1.jpg) repeat top left;
     font-family: sans-serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.688;
     color: #333;
 }
@@ -13,11 +13,11 @@ button {outline: none;}
 a {text-decoration:none;}
 
 .navbar-brand {
-	font-size: 2.0em;
+	font-size: 1.5em;
 }
 
 .navbar-nav {
-	font-size: 1.3em;
+	font-size: 1.0em;
 }
 
 .globe-image {
