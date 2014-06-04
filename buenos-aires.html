@@ -74,8 +74,12 @@
 
 <section id="hero">
 	<div class = "hero">
-		<p class = "hero-heading"> Buenos Aires </p>
-		<p class = "hero-text"> "By the time I left, I really felt like I was part of the culture. Getting the opportunity to adjust and adapt to a different way of life and get to know and spend time with Argentines was by far the best part of my time abroad." <br> - Jessica Woll, IFSA Butler Buenos Aires, Fall 2010</p>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<p class = "hero-heading"> Buenos Aires </p>
+				<p class = "hero-text"> "By the time I left, I really felt like I was part of the culture. Getting the opportunity to adjust and adapt to a different way of life and get to know and spend time with Argentines was by far the best part of my time abroad." <br> - Jessica Woll, IFSA Butler Buenos Aires, Fall 2010</p>
+			</div> <!--column-->
+		</div> <!--row-->
 	</div>
 </section>
 
@@ -98,7 +102,7 @@
 
 		<div class="tab-content">
 			<div class="row li-text tab-pane fade in active" id="class">
-				<div class="col-md-4 col-md-offset-2">	
+				<div class="col-md-4 col-md-offset-2 extra-margin">	
 					<b> Level of Difficulty - Pass/Fail </b><br>
 					<li> No need to worry too much about grades given that you pass </li>
 					<li> Classes were interesting, but depending on the class  </li>workloads may vary, ranging from group projects to research and papers. </li>
@@ -113,7 +117,7 @@
 					<li> Di Tela - 5 credits per class (50 minutes thrice a week) </li>
 					<li> UBA - 6 credits per class (4 hours once a week) </li>		
 				</div> <!--column-->
-				<div class="col-md-4 extra-margin">	
+				<div class="col-md-4">	
 					<b>Classes Taken by Previous Students </b>
 					<li> Argentine History (UCA) </li>
 					<li> Spanish class with a Cinema Focus (IFSA) </li>
@@ -186,7 +190,7 @@
 					</ul></p>
 				</div>
 			</div> <!--column-->
-			<div class="col-md-2 sidebar">
+			<div class="col-md-2 sidebar hidden-sm hidden-md visible-lg">
 				<div class="sidebox-1">
 					<p class="heading"> Time of meal </p>
 					<p>	
@@ -238,7 +242,7 @@
 					<li> Stay away from La Boca, and other places you aren't familiar of</li>
 				</div>
 			</div> <!--column-->
-			<div class="col-md-2 sidebar">
+			<div class="col-md-2 hidden-sm hidden-md visible-lg sidebar">
 				<div class="sidebox-2">
 					<p class="heading"> Typical night </p>
 					<p>	
@@ -289,7 +293,7 @@
 					<li> Salta and Jujuy (mountain of 14 colors)</li>
 				</div>
 			</div> <!--column-->
-			<div class="col-md-2 sidebar">
+			<div class="col-md-2 hidden-sm hidden-md visible-lg sidebar">
 				<div class="sidebox-3">
 					<p class="heading"> Transportation </p>
 					<p>	
@@ -364,23 +368,23 @@
 				<h2 class="extra-margin"> See something missing? Let us know! </h2>
 			</div> <!--column-->
 		</div> <!--row-->
+    <form role="form" method="post" action="send_suggestion.php">
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <form role="form">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                        <input type="text" class="form-control" placeholder="Your Program">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name">
+                        <input type="text" name="program" class="form-control" placeholder="Your Program">
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
                     </div>
-                </form>
             </div> <!-- col -->
             <div class="col-lg-4">
                 <div class="form-group">
-                    <textarea class="form-control" rows="7" placeholder="Shoot your ideas"></textarea>
+                    <textarea class="form-control" name="message" rows="7" placeholder="Shoot us your ideas"></textarea>
                 </div>
-                <button class="submit-button">Send it away!</button>
+                <input type="submit" name="submit" class="submit-button">
             </div>  <!-- col -->
         </div> <!-- row -->
+    </form>
 </section>
 
 <section id="footer" class="text-center">

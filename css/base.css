@@ -24,6 +24,7 @@ h2 {
     text-align: center;
 }
 
+
 .navbar-brand { 
     font-size: 2.0em;
 }
@@ -35,7 +36,7 @@ h2 {
 #tips h1 { color: Teal; }
 #contribute h1 { color: Chocolate; }
 
-#program .extra-margin { margin-left: 40px; }
+#program .extra-margin { margin-right: 40px; margin-bottom: 30px; }
 #contribute .extra-margin { margin-bottom: 40px; }
 
 
@@ -59,7 +60,7 @@ h2 {
 .hero {
     position: relative;
     top: 120px;
-    margin: 0px 140px;
+    margin: 0px 20px;
     text-align: center;
 }
 
@@ -128,7 +129,7 @@ h2 {
 }
 
 .sidebar  {
-    margin: 20px 50px;
+    margin: 20px 10px;
     width: 200px;
     color: #999;
 }

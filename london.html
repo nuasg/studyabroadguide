@@ -72,12 +72,14 @@
 </nav>
 
 
-
-
 <section id="hero">
 	<div class = "hero">
-		<p class = "hero-heading"> London </p>
-		<p class = "hero-text"> "I loved the people I met and just getting to experience a new city and all that it has to offer."" <br> - Clair Wojciechowski, Arcadia Goldsmiths: University of London, Fall 2010 </p>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<p class = "hero-heading"> London </p>
+				<p class = "hero-text"> "I loved the people I met and just getting to experience a new city and all that it has to offer."" <br> - Clair Wojciechowski, Arcadia Goldsmiths: University of London, Fall 2010 </p>
+			</div> <!--column-->
+		</div> <!--row-->
 	</div>
 </section>
 
@@ -173,7 +175,7 @@
 					</p>
 				</div>
 			</div> <!--column-->
-			<div class="col-md-2 sidebar">
+			<div class="col-md-2 sidebar hidden-sm hidden-md visible-lg">
 				<div class="sidebox-1">
 					<p class="heading"> Food is expensive </p>
 					<p>	
@@ -212,7 +214,7 @@
 					<li> Adventure Bar: Small bar but great atmosphere with a younger local crowd, great music to belt to ranging from Top 40 to Queen. Ask for Petra, a bar tender who loves Americans. Closes around 12am so a great place to start the night</li>
 				</div>
 			</div> <!--column-->
-			<div class="col-md-2 sidebar">
+			<div class="col-md-2 sidebar hidden-sm hidden-md visible-lg">
 				<div class="sidebox-2">
 					<p class="heading"> Timing </p>
 					<p>	
@@ -258,7 +260,7 @@
 					be sure to have a sophisticated night out at a show in London's famous theater district. It is surrounded by China town and hundreds of small restaurants.  <br><br>
 				</div>
 			</div> <!--column-->
-			<div class="col-md-2 sidebar">
+			<div class="col-md-2 sidebar hidden-sm hidden-md visible-lg">
 				<div class="sidebox-3">
 					<p class="heading"> Neighborhoods </p>
 					<p>	
@@ -348,8 +350,6 @@
 	</div> <!--container-->
 </section>
 
-
-
 <section id="contribute" class="bg-color" >
     <div class="container">
 		<div class="row">
@@ -358,24 +358,25 @@
 				<h2 class="extra-margin"> See something missing? Let us know! </h2>
 			</div> <!--column-->
 		</div> <!--row-->
+    <form role="form" method="post" action="send_suggestion.php">
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <form role="form">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                        <input type="text" class="form-control" placeholder="Your Program">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name">
+                        <input type="text" name="program" class="form-control" placeholder="Your Program">
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
                     </div>
-                </form>
             </div> <!-- col -->
             <div class="col-lg-4">
                 <div class="form-group">
-                    <textarea class="form-control" rows="7" placeholder="Shoot your ideas"></textarea>
+                    <textarea class="form-control" name="message" rows="7" placeholder="Shoot us your ideas"></textarea>
                 </div>
-                <button class="submit-button">Send it away!</button>
+                <input type="submit" name="submit" class="submit-button">
             </div>  <!-- col -->
         </div> <!-- row -->
+    </form>
 </section>
+
 
 <section id="footer" class="text-center">
     <div class="container">

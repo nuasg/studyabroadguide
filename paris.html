@@ -70,12 +70,14 @@
     <!-- /.container-fluid -->
 </nav>
 
-
-
 <section id="hero">
 	<div class = "hero">
-		<p class = "hero-heading"> Paris </p>
-		<p class = "hero-text"> "Living in and getting to know Paris - it was my first time in Paris. I now want to live in Paris for a few years at some point in my life. I love fashion and food and Paris is a perfect place to be for that. The culture is great to discover. There are enough things to do that you can do something new each day."<br> - Jane Weiss, Sweet Briar JYF (Fall 2010)</p>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<p class = "hero-heading"> Paris </p>
+				<p class = "hero-text"> "Living in and getting to know Paris - it was my first time in Paris. I now want to live in Paris for a few years at some point in my life. I love fashion and food and Paris is a perfect place to be for that. The culture is great to discover. There are enough things to do that you can do something new each day."<br> - Jane Weiss, Sweet Briar JYF (Fall 2010)</p>
+			</div> <!--column-->
+		</div> <!--row-->
 	</div>
 </section>
 
@@ -180,7 +182,7 @@
 					</ul></p>
 				</div>
 			</div> <!--column-->
-			<div class="col-md-2 sidebar">
+			<div class="col-md-2 sidebar hidden-sm hidden-md visible-lg">
 				<div class="sidebox-1">
 					<p class="heading"> Time of meal </p>
 					<p>	
@@ -235,7 +237,7 @@
 					<li> Neighborhoods: Bastille, Montmartre, Anything on Rue de Mouffetard</li>
 				</div>
 			</div> <!--column-->
-			<div class="col-md-2 sidebar">
+			<div class="col-md-2 sidebar hidden-sm hidden-md visible-lg">
 				<div class="sidebox-2">
 					<p class="heading"> Timing </p>
 					<p>	
@@ -286,7 +288,7 @@
 					<li> Taxis are expensive </li>
 				</div>
 			</div> <!--column-->
-			<div class="col-md-2 sidebar">
+			<div class="col-md-2 sidebar hidden-sm hidden-md visible-lg">
 				<div class="sidebox-3">
 					<p class="heading"> Budgeting </p>
 					<p>	
@@ -327,7 +329,6 @@
 	</div> <!--container-->
 </section>
 
-
 <section id="contribute" class="bg-color" >
     <div class="container">
 		<div class="row">
@@ -336,24 +337,25 @@
 				<h2 class="extra-margin"> See something missing? Let us know! </h2>
 			</div> <!--column-->
 		</div> <!--row-->
+    <form role="form" method="post" action="send_suggestion.php">
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <form role="form">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                        <input type="text" class="form-control" placeholder="Your Program">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name">
+                        <input type="text" name="program" class="form-control" placeholder="Your Program">
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
                     </div>
-                </form>
             </div> <!-- col -->
             <div class="col-lg-4">
                 <div class="form-group">
-                    <textarea class="form-control" rows="7" placeholder="Shoot your ideas"></textarea>
+                    <textarea class="form-control" name="message" rows="7" placeholder="Shoot us your ideas"></textarea>
                 </div>
-                <button class="submit-button">Send it away!</button>
+                <input type="submit" name="submit" class="submit-button">
             </div>  <!-- col -->
         </div> <!-- row -->
+    </form>
 </section>
+
 
 <section id="footer" class="text-center">
     <div class="container">
