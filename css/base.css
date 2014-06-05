@@ -1,7 +1,23 @@
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    }
+
 body {
     font-family: sans-serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.688;
     color: #333;
 }
@@ -11,18 +27,19 @@ section { padding: 50px 0px; }
 h1, h2, .hero-heading, .caption { font-family: 'Roboto', sans-serif;}
 h1 {
     font-weight: 200;
-    font-size: 52px;
+    font-size: 3.5em;
     text-align: center;
     text-transform: uppercase;
 }
 
 h2 {
     font-weight: 200;
-    font-size: 38px; 
+    font-size: 2.2em; 
     margin-top: 0px; 
     margin-bottom: 40px;
     text-align: center;
 }
+
 
 .navbar-brand { 
     font-size: 2.0em;
@@ -35,7 +52,7 @@ h2 {
 #tips h1 { color: Teal; }
 #contribute h1 { color: Chocolate; }
 
-#program .extra-margin { margin-left: 40px; }
+#program .extra-margin { margin-right: 40px; margin-bottom: 30px; }
 #contribute .extra-margin { margin-bottom: 40px; }
 
 
@@ -59,16 +76,16 @@ h2 {
 .hero {
     position: relative;
     top: 120px;
-    margin: 0px 140px;
+    margin: 0px 20px;
     text-align: center;
 }
 
 .hero-heading {
     font-weight: lighter;
-    font-size: 82px;
+    font-size: 5.0em;
 }
 
-.hero-text { font-size: 18px; }
+.hero-text { font-size: 1.2em; }
 
 
 .round-image {
@@ -118,17 +135,17 @@ h2 {
 }
 
 .li-text, .caption, .tip-text  { 
-    font-size: 16px;
+    font-size: 1.0em;
     line-height: 1.8;
 }
 
 .li-text b {
     font-weight: lighter; 
-    font-size: 22px;
+    font-size: 1.5em;
 }
 
 .sidebar  {
-    margin: 20px 50px;
+    margin: 20px 10px;
     width: 200px;
     color: #999;
 }
@@ -222,7 +239,7 @@ h2 {
     width: 100%;
     padding: 10px;
     background-color: #ebe5da;
-    font-size: 16px;
+    font-size: 1.0em;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
