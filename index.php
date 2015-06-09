@@ -16,6 +16,8 @@
 </head>
 
 <body>
+  <!-- analytics tracking -->
+  <?php include_once("analyticstracking.php") ?>
 
   <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -50,7 +52,7 @@
                     </li>
                     <li class="page-scroll">
                         <a href="paris.html">Paris</a>
-                    </li>                    
+                    </li>
                 </ul>
             </div> <!-- navbar-collapse -->
         </div> <!-- container -->
