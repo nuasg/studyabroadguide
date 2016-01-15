@@ -1,3 +1,4 @@
+/* css/base.css - Shared CSS across all pages */
 @media all and (max-width: 1200px) { /* screen size until 1200px */
     body {
         font-size: 1.5em; /* 1.5x default size */
@@ -34,15 +35,15 @@ h1 {
 
 h2 {
     font-weight: 200;
-    font-size: 2.2em; 
-    margin-top: 0px; 
+    font-size: 2.2em;
+    margin-top: 0px;
     margin-bottom: 40px;
     text-align: center;
 }
 
 
-.navbar-brand { 
-    font-size: 2.0em;
+.navbar-brand {
+    font-size: 1.5em;
 }
 
 #program h1 { color: Orange; }
@@ -105,7 +106,7 @@ h2 {
     left: 25px;
 }
 
-#program a, 
+#program a,
 #program a:hover,
 #program a:focus {
     background-color: transparent;
@@ -115,9 +116,13 @@ h2 {
     height: 200px;
 }
 
+#program a:hover {
+  text-decoration: underline;
+}
 
-#program li img{ 
-    border: 2px solid transparent; 
+
+#program li img{
+    border: 2px solid transparent;
 }
 
 #program li img:hover  {
@@ -127,20 +132,20 @@ h2 {
     transition: border 200ms ease-in-out;
 }
 
-#program li.active img{ 
-    border: 2px solid #08c; 
+#program li.active img{
+    border: 2px solid #08c;
     -webkit-transition: border 500ms ease-in-out;
     -moz-transition: border 500ms ease-in-out;
     transition: border 500ms ease-in-out;
 }
 
-.li-text, .caption, .tip-text  { 
+.li-text, .caption, .tip-text  {
     font-size: 1.0em;
     line-height: 1.8;
 }
 
 .li-text b {
-    font-weight: lighter; 
+    font-weight: lighter;
     font-size: 1.5em;
 }
 
@@ -157,28 +162,28 @@ h2 {
 .sidebar .sidebox-4 .heading { color: Teal; }
 .sidebar .sidebox-5 .heading { color: SeaGreen; }
 .sidebar .sidebox-6 .heading { color: DarkGoldenRod ; }
- 
-.sidebar .sidebox-1 { 
-    border-top: 2px solid green; 
+
+.sidebar .sidebox-1 {
+    border-top: 2px solid green;
 }
-.sidebar .sidebox-2 { 
-    border-top: 2px solid #52A4AB; 
+.sidebar .sidebox-2 {
+    border-top: 2px solid #52A4AB;
 }
-.sidebar .sidebox-3 { 
-    border-top: 2px solid PaleVioletRed; 
+.sidebar .sidebox-3 {
+    border-top: 2px solid PaleVioletRed;
     margin-top: 30px;
 }
-.sidebar .sidebox-4 { 
-    border-top: 2px solid Teal; 
-    margin-top: 60px; 
+.sidebar .sidebox-4 {
+    border-top: 2px solid Teal;
+    margin-top: 60px;
 }
-.sidebar .sidebox-5 { 
-    border-top: 2px solid SeaGreen; 
-    margin-top: 70px; 
+.sidebar .sidebox-5 {
+    border-top: 2px solid SeaGreen;
+    margin-top: 70px;
 }
-.sidebar .sidebox-6 { 
-    border-top: 2px solid DarkGoldenRod; 
-    margin-top: 80px; 
+.sidebar .sidebox-6 {
+    border-top: 2px solid DarkGoldenRod;
+    margin-top: 80px;
 }
 
 
@@ -233,6 +238,17 @@ h2 {
     border: 4px solid #ebe5da;
     border-radius:0%;
     background: none;
+}
+
+/* make the feedback bar stick to the bottom of the page */
+.add-content {
+  position: fixed;
+  bottom: 0;
+}
+
+/* underline feedback bar on hover */
+.add-content:hover {
+  text-decoration: underline;
 }
 
 .submit-button {

@@ -4,8 +4,8 @@ $( "#submit" ).click(function() {
   $('#myModal').modal('hide');
   setTimeout(function (){
     $('#thank-you').modal('show');
-         }, 300); // how long do you want the delay to be? 
-}); 
+         }, 300); // how long do you want the delay to be?
+});
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
@@ -21,7 +21,7 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
 
 var programs = {};
 
@@ -62,9 +62,12 @@ $('#map').vectorMap({
 
     // marker names
     markers: [
-  		{latLng: [48.85, 2.35], name: 'Paris'},
-  		{latLng: [51.50, 0.13], name: 'London'},
-  		{latLng: [-34.60, -58.38], name: 'Buenos Aires'}
+  		{latLng: [48.86, 2.35], name: 'Paris'},
+  		{latLng: [51.51, 0.13], name: 'London'},
+  		{latLng: [-34.60, -58.38], name: 'Buenos Aires'},
+      {latLng: [50.73, 7.10], name: 'Bonn'},
+      {latLng: [52.52, 13.38], name: 'Berlin'},
+      {latLng: [48.13, 11.57], name: 'Munich'}
   		],
 
 
@@ -79,10 +82,27 @@ $('#map').vectorMap({
 	},
 
 	onMarkerClick: function(e, code) {
-		if (code==0) {window.location.replace("paris.html");}
-		else if (code==1) {window.location.replace("london.html");}
-		else if (code==2) {window.location.replace("buenos-aires.html");}
-    	}
+    switch (parseInt(code)) {
+      case 0:
+        window.location.assign("paris.html");
+        break;
+      case 1:
+        window.location.assign("london.html");
+        break;
+      case 2:
+        window.location.assign("buenos-aires.html");
+        break;
+      case 3:
+        window.location.assign("bonn.html");
+        break;
+      case 4:
+        window.location.assign("berlin.html");
+        break;
+      case 5:
+        window.location.assign("munich.html");
+        break;
+    }
+  }
 });
 
 });
