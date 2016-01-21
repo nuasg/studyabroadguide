@@ -1,0 +1,14 @@
+#hero {
+    color: white;
+    background-image: url(../img/copenhagen.jpg);
+    /*height: 110vh;*/
+}
+
+#gallery {
+    background-image: url(../img/copenhagen-2.jpg);
+    background-position: center;
+}
+
+.special_heading {
+  text-align: center;
+}
