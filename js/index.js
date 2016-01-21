@@ -65,11 +65,11 @@ $('#map').vectorMap({
   		{latLng: [48.86, 2.35], name: 'Paris'},
   		{latLng: [51.51, 0.13], name: 'London'},
   		{latLng: [-34.60, -58.38], name: 'Buenos Aires'},
-      {latLng: [50.73, 7.10], name: 'Bonn'},
-      {latLng: [52.52, 13.38], name: 'Berlin'},
-      {latLng: [48.13, 11.57], name: 'Munich'},
-      {latLng: [41.38, 2.18], name: 'Barcelona'},
-      {latLng: [55.68, 12.57], name: 'Copenhagen'}
+      {latLng: [50.73, 7.10], name: 'Bonn (New!)', style: {fill: 'yellow'}},
+      {latLng: [52.52, 13.38], name: 'Berlin (New!)', style: {fill: 'yellow'}},
+      {latLng: [48.13, 11.57], name: 'Munich (New!)', style: {fill: 'yellow'}},
+      {latLng: [41.38, 2.18], name: 'Barcelona (New!)', style: {fill: 'yellow'}},
+      {latLng: [55.68, 12.57], name: 'Copenhagen (New!)', style: {fill: 'yellow'}}
     ],
 
 
