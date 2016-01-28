@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unofficial Study Abroad Guide</title>
+  <!--  CSS  -->
+  <link rel="stylesheet" href="css/jquery-jvectormap.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <!--  Javascript -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/jquery-jvectormap.min.js"></script>
+  <script src="js/world-map.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+
+  <!-- GOOGLE ANALYTICS TRACKING CODE -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63900118-3', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+        	 <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                	<img class="globe-image hidden-sm hidden-md visible-lg" src="img/globe-logo.png">
+                </a>
+                <a class="navbar-brand" href="/">
+                	Study Abroad Guide
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="barcelona">Barcelona</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="buenos-aires">Buenos Aires</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="copenhagen">Copenhagen</a>
+                    </li>
+                    <li class="page-scroll dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Germany
+                      <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="berlin">Berlin</a></li>
+                        <li><a href="bonn">Bonn</a></li>
+                        <li><a href="munich">Munich</a></li>
+                      </ul>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="london">London</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="paris">Paris</a>
+                    </li>
+                </ul>
+            </div> <!-- navbar-collapse -->
+        </div> <!-- container -->
+    </nav>
+
+</div>
+<div id="map"></div>
+
+<!-- Button trigger modal -->
+<button class="add-content submit-button" data-toggle="modal" data-target="#myModal">
+ See something missing?
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+          <div class="row" id="contribute" class="bg-color">
+            <div class="col-md-12">
+              <h1> Contribute </h1>
+              <h2 class="extra-margin"> See something missing? Let us know! </h2>
+            </div> <!--column-->
+          </div> <!--row-->
+          <form role="form" method="post" action="send_suggestion.php">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <div class="form-group">
+                          <input name="name" type="text" class="form-control" placeholder="Your Name">
+                          <input name="program" type="text" class="form-control" placeholder="Your City and Program">
+                          <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
+                      </div>
+                  </div> <!-- col -->
+                  <div class="col-lg-6">
+                      <div class="form-group">
+                          <textarea class="form-control" rows="7" placeholder="Shoot us your ideas"></textarea>
+                      </div>
+                      <input type="submit" id="submit" name="submit" class="submit-button">
+                  </div>  <!-- col -->
+              </div> <!-- row -->
+          </form>
+
+      </div> <!-- modal-body -->
+  </div> <!-- modal-content -->
+</div> <!-- modal-dialog -->
+</div> <!-- modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="thank-you" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <div class="row" id="contribute" class="bg-color">
+            <div class="col-md-12">
+              <h1> Thank You! </h1>
+              <h2 class="extra-margin"> We appreciate your contribution. We will review your submission and add it to the website if relevent. </h2>
+            </div> <!--column-->
+          </div> <!--row-->
+      </div> <!-- modal-body -->
+  </div> <!-- modal-content -->
+</div> <!-- modal-dialog -->
+</div> <!-- modal -->
+
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+</body>
+</html>

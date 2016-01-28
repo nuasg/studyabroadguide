@@ -1,0 +1,23 @@
+{
+  "name": "studyabroadguide",
+  "version": "1.0.0",
+  "description": "Northwestern Unofficial Study Abroad Guide",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuasg/studyabroadguide.git"
+  },
+  "author": "ASG Services",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuasg/studyabroadguide/issues"
+  },
+  "homepage": "https://github.com/nuasg/studyabroadguide#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}

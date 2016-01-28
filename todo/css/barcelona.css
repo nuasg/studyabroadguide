@@ -1,0 +1,9 @@
+#hero {
+    color: white;
+    background-image: url(../img/barcelona-1.jpg);
+}
+
+#gallery {
+    background-image: url(../img/barcelona2.jpg);
+    background-position: center;
+}
