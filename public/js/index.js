@@ -1,13 +1,14 @@
-$( document ).ready(function() {
+var thank;
 
-$( "#submit" ).click(function() {
+$( document ).ready(function() {
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+thank = function() {
   $('#myModal').modal('hide');
   setTimeout(function (){
     $('#thank-you').modal('show');
          }, 300); // how long do you want the delay to be?
-});
+};
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
