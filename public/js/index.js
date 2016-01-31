@@ -1,14 +1,26 @@
-var thank;
-
 $( document ).ready(function() {
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-thank = function() {
-  $('#myModal').modal('hide');
-  setTimeout(function (){
-    $('#thank-you').modal('show');
-         }, 300); // how long do you want the delay to be?
-};
 
+$("#feedback").submit(function(e) {
+  e.preventDefault();
+  console.log("wow");
+
+  $.ajax({
+    url: "/feedback",
+    type: "post",
+    data: $("#feedback").serialize(),
+    success: function() {
+      console.log("hey");
+      $('#myModal').modal('hide');
+      setTimeout(function (){
+        $('#thank-you').modal('show');
+             }, 300); // how long do you want the delay to be?
+    }
+  });
+
+});
+
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);

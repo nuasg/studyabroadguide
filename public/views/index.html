@@ -104,21 +104,26 @@
               <h2 class="extra-margin"> See something missing? Let us know! </h2>
             </div> <!--column-->
           </div> <!--row-->
-          <form id="feedback" name="feedback" role="form" method="post" action="/feedback" onsubmit="thank()">
+
+          <!-- FEEDBACK FORM -->
+          <form name="feedback" id="feedback" method="post" action="/feedback" role="form">
               <div class="row">
-                  <div class="col-lg-6">
+
+                  <div class="col-md-6">
                       <div class="form-group">
                           <input name="name" type="text" class="form-control" placeholder="Your Name">
                           <input name="program" type="text" class="form-control" placeholder="Your City and Program">
-                          <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Northwestern email">
+                          <input name="email" type="email" class="form-control" placeholder="Email Address (required)" required>
                       </div>
                   </div> <!-- col -->
-                  <div class="col-lg-6">
+
+                  <div class="col-md-6">
                       <div class="form-group">
-                          <textarea class="form-control" rows="7" placeholder="Shoot us your ideas" form="feedback"></textarea>
+                          <textarea name="text" form="feedback" class="form-control" rows="7" placeholder="Shoot us your ideas (required)" required></textarea>
                       </div>
                       <input type="submit" id="submit" name="submit" value="Submit" class="submit-button">
                   </div>  <!-- col -->
+
               </div> <!-- row -->
           </form>
 

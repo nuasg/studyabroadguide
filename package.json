@@ -20,6 +20,7 @@
     "body-parser": "^1.14.2",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
-    "nodemailer": "0.7.1"
+    "nodemailer": "0.7.1",
+    "validator": "^4.5.2"
   }
 }
