@@ -64,6 +64,6 @@ module.exports = function(app) {
    * Dynamically load country pages by searching in /views; prevents from having to create a new route for each new country
    */
   app.get('/:country', function(req, res) {
-    res.send(req.params.country + ".html");
+    res.render(req.params.country + ".html");
   });
 };
