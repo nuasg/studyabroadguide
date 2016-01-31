@@ -63,20 +63,7 @@ module.exports = function(app) {
    * COUNTRY PAGES
    * Dynamically load country pages by searching in /views; prevents from having to create a new route for each new country
    */
-  app.get('/:country', function(req, res){
-    var file = __dirname + "/../public/views/" + req.params.country + ".html";
-
-    fs.access(file, fs.F_OK, function(err) {
-        if (!err) {
-            // Do something
-            res.render(file, {
-
-            });
-        } else {
-            // It isn't accessible
-            res.status(404).send('Country not found.');
-            //console.log(err);
-        }
-    });
+  app.get('/:country', function(req, res) {
+    res.send(req.params.country + ".html");
   });
 };
