@@ -8,3 +8,5 @@ The Unofficial Study Abroad Guide is a source of study abroad information compil
 * Berlin
 * Bonn
 * Munich
+* Barcelona
+* Copenhagen
