@@ -41,7 +41,7 @@ module.exports = function(app) {
         debug: true
       });
 
-    } else if (process.env.PROD == '1') {
+    } else if (process.env.HOSTNAME == 'vazzak2') {
       transporter = nodemailer.createTransport('SMTP', {
         host: 'hostsmtp.northwestern.edu',
         port: 25
