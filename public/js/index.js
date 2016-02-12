@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 
+// Feedback
 $("#feedback").submit(function(e) {
   e.preventDefault();
   console.log("wow");

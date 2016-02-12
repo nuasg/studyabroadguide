@@ -1,5 +1,18 @@
 $( document ).ready(function() {
 
+// Feedback
+$("#feedback").submit(function(e) {
+  e.preventDefault();
+  console.log("wow");
+
+  $.ajax({
+    url: "/feedback",
+    type: "post",
+    data: $("#feedback").serialize()
+  });
+  $("#feedback")[0].reset();
+});
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {

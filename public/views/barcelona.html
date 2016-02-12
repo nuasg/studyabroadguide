@@ -364,7 +364,7 @@
 				<h2 class="extra-margin"> See something missing? Let us know! </h2>
 			</div> <!--column-->
 		</div> <!--row-->
-    <form role="form" method="post" action="send_suggestion.php">
+    <form id="feedback" role="form" method="post" action="/feedback">
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
                     <div class="form-group">
@@ -375,7 +375,7 @@
             </div> <!-- col -->
             <div class="col-lg-4">
                 <div class="form-group">
-                    <textarea class="form-control" name="message" rows="7" placeholder="Shoot us your ideas"></textarea>
+                    <textarea name="text" form="feedback" class="form-control" name="message" rows="7" placeholder="Shoot us your ideas"></textarea>
                 </div>
                 <input type="submit" name="submit" class="submit-button">
             </div>  <!-- col -->
