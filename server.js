@@ -12,8 +12,8 @@ var bodyParser = require('body-parser');
 
 // express config
 app.use(express.static(path.join(__dirname, '/public')));     // static files location (e.g. /public/img will be /img for users)
-app.use(bodyParser.json());       // to support JSON-encoded bodies
-app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+app.use(bodyParser.json());                                   // to support JSON-encoded bodies
+app.use(bodyParser.urlencoded({                               // to support URL-encoded bodies
   extended: true
 }));
 

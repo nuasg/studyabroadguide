@@ -1,16 +1,26 @@
 $( document ).ready(function() {
 
-// Feedback
+var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+
 $("#feedback").submit(function(e) {
+
+  // safari doesn't support HTML5 form validation so we have to make it
+  if (!($('#feedback')[0].checkValidity())) {
+    if (is_safari) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
   e.preventDefault();
-  console.log("wow");
 
   $.ajax({
     url: "/feedback",
     type: "post",
     data: $("#feedback").serialize(),
     success: function() {
-      console.log("hey");
+      console.log("Success!");
       $('#myModal').modal('hide');
       setTimeout(function (){
         $('#thank-you').modal('show');
