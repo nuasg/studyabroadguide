@@ -22,5 +22,9 @@
     "express": "^4.13.4",
     "nodemailer": "0.7.1",
     "validator": "^4.5.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
   }
 }
