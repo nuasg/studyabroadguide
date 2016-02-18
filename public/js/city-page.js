@@ -1,14 +1,28 @@
 $( document ).ready(function() {
 
+var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+
 // Feedback
 $("#feedback").submit(function(e) {
+
+  // safari doesn't support HTML5 form validation so we have to make it
+  if (!($('#feedback')[0].checkValidity())) {
+    if (is_safari) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
   e.preventDefault();
-  console.log("wow");
 
   $.ajax({
     url: "/feedback",
     type: "post",
-    data: $("#feedback").serialize()
+    data: $("#feedback").serialize(),
+    success: function(data) {
+      alert(data.result);
+    }
   });
   $("#feedback")[0].reset();
 });
