@@ -1,9 +1,7 @@
-#hero {
-	color: #fff;
-    background-image: url(../img/paris-2.jpg);
-    background-position: 0px 30px;
-}
+#hero
+	color: #fff
+	background-image: url(../img/paris-2.jpg)
+	background-position: 0px 30px
 
-#gallery {
-    background-image: url(../img/paris-3.jpg);
-}
+#gallery
+	background-image: url(../img/paris-3.jpg)
