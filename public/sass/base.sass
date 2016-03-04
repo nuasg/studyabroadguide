@@ -1,277 +1,296 @@
 /* css/base.css - Shared CSS across all pages */
 @media all and (max-width: 1200px) /* screen size until 1200px */
-body
-font-size: 1.5em /* 1.5x default size */
+  body
+    font-size: 1.5em /* 1.5x default size */
 
 
 @media all and (max-width: 1000px)  /* screen size until 1000px */
-body
-font-size: 1.2em; /* 1.2x default size */
+  body
+    font-size: 1.2em; /* 1.2x default size */
 
 
 @media all and (max-width: 500px)  /* screen size until 500px */
-body
-font-size: 0.8em; /* 0.8x default size */
+  body
+    font-size: 0.8em; /* 0.8x default size */
 
 
 
 
 
-body
-font-family: sans-serif
-font-weight: 200
-font-size: 16px
-line-height: 1.688
-color: #333
+    body
+    font-family: sans-serif
+    font-weight: 200
+    font-size: 16px
+    line-height: 1.688
+    color: #333
 
 
-section  padding: 50px 0px
+    section
+      padding: 50px 0px
 
-h1, h2, .hero-heading, .caption  font-family: 'Roboto', sans-serif
-h1
-font-weight: 200
-font-size: 3.5em
-text-align: center
-text-transform: uppercase
-
-
-h2
-font-weight: 200
-font-size: 2.2em
-margin-top: 0px
-margin-bottom: 40px
-text-align: center
+    h1, h2, .hero-heading, .caption
+      font-family: 'Roboto', sans-serif
+    h1
+    font-weight: 200
+    font-size: 3.5em
+    text-align: center
+    text-transform: uppercase
 
 
-
-.navbar-brand
-font-size: 1.5em
-
-
-#program h1  color: Orange
-#eating h1  color: YellowGreen
-#nightlife h1  color: PaleVioletRed
-#travelling h1  color: SteelBlue
-#tips h1  color: Teal
-#contribute h1 color: Chocolate
-
-#program .extra-margin margin-right: 40px; margin-bottom: 30px
-#contribute .extra-margin margin-bottom: 40px
+    h2
+    font-weight: 200
+    font-size: 2.2em
+    margin-top: 0px
+    margin-bottom: 40px
+    text-align: center
 
 
-#hero, #gallery
-height: 900px
-background-size: cover
-background-repeat: no-repeat
+
+    .navbar-brand
+      font-size: 1.5em
+
+
+    #program h1  color: Orange
+    #eating h1  color: YellowGreen
+    #nightlife h1  color: PaleVioletRed
+    #travelling h1  color: SteelBlue
+    #tips h1  color: Teal
+    #contribute h1 color: Chocolate
+
+  #program .extra-margin margin-right: 40px; margin-bottom: 30px
+  #contribute .extra-margin margin-bottom: 40px
+
+
+  #hero, #gallery
+  height: 900px
+  background-size: cover
+  background-repeat: no-repeat
 
 
 .bg-color background-color: #f6f6ee
 
 
 .globe-image
-position: relative
-left: -10px
-top: -20px
-width: 180px
-display: inline
+  position: relative
+  left: -10px
+  top: -20px
+  width: 180px
+  display: inline
 
 
 .hero
-position: relative
-top: 120px
-margin: 0px 20px
-text-align: center
+  position: relative
+  top: 120px
+  margin: 0px 20px
+  text-align: center
 
 
 .hero-heading
-font-weight: lighter
-font-size: 5.0em
+  font-weight: lighter
+  font-size: 5.0em
 
 
 .hero-text  font-size: 1.2em
 
 
 .round-image
-padding: 5px
-border-radius:100%
-width:140px
-height:140px
-display: inline-block
+  padding: 5px
+  border-radius:100%
+  width:140px
+  height:140px
+  display: inline-block
 
 
 
 #program .nav-tabs
-border: none
-margin: 0px auto
-width: 650px
-position: relative
-left: 25px
+  border: none
+  margin: 0px auto
+  width: 650px
+  position: relative
+  left: 25px
 
 
 #program a,
 #program a:hover,
 #program a:focus
-background-color: transparent
-text-decoration: none
-border: none
-width: 200px
-height: 200px
+  background-color: transparent
+  text-decoration: none
+  border: none
+  width: 200px
+  height: 200px
 
 
 #program a:hover
-text-decoration: underline
+  text-decoration: underline
 
 
 
 #program li img
-border: 2px solid transparent
+  border: 2px solid transparent
 
 
 #program li img:hover
-border: 2px solid #ccc
--webkit-transition: border 200ms ease-in-out
--moz-transition: border 200ms ease-in-out
-transition: border 200ms ease-in-out
+  border: 2px solid #ccc
+  -webkit-transition: border 200ms ease-in-out
+  -moz-transition: border 200ms ease-in-out
+  transition: border 200ms ease-in-out
 
 
 #program li.active img
-border: 2px solid #08c
--webkit-transition: border 500ms ease-in-out
--moz-transition: border 500ms ease-in-out
-transition: border 500ms ease-in-out
+  border: 2px solid #08c
+  -webkit-transition: border 500ms ease-in-out
+  -moz-transition: border 500ms ease-in-out
+  transition: border 500ms ease-in-out
 
 
 .li-text, .caption, .tip-text
-font-size: 1.0em
-line-height: 1.8
+  font-size: 1.0em
+  line-height: 1.8
 
 
 .li-text b
-font-weight: lighter
-font-size: 1.5em
+  font-weight: lighter
+  font-size: 1.5em
 
 
 .sidebar
-margin: 20px 10px
-width: 200px
-color: #999
+  margin: 20px 10px
+  width: 200px
+  color: #999
 
 
-.sidebar .heading font-size: 1.3em
-.sidebar .sidebox-1 .heading color: green
-.sidebar .sidebox-2 .heading color: #52A4AB
-.sidebar .sidebox-3 .heading color: PaleVioletRed
-.sidebar .sidebox-4 .heading color: Teal
-.sidebar .sidebox-5 .heading color: SeaGreen
-.sidebar .sidebox-6 .heading color: DarkGoldenRod
+.sidebar .heading
+  font-size: 1.3em
+.sidebar .sidebox-1 .heading
+  color: green
+.sidebar .sidebox-2 .heading
+  color: #52A4AB
+.sidebar .sidebox-3 .heading
+  color: PaleVioletRed
+.sidebar .sidebox-4 .heading
+  color: Teal
+.sidebar .sidebox-5 .heading
+  color: SeaGreen
+.sidebar .sidebox-6 .heading
+  color: DarkGoldenRod
 
 .sidebar .sidebox-1
-border-top: 2px solid green
+  border-top: 2px solid green
 
 .sidebar .sidebox-2
-border-top: 2px solid #52A4AB
+  border-top: 2px solid #52A4AB
 
 .sidebar .sidebox-3
-border-top: 2px solid PaleVioletRed
-margin-top: 30px
+  border-top: 2px solid PaleVioletRed
+  margin-top: 30px
 
 .sidebar .sidebox-4
-border-top: 2px solid Teal
-margin-top: 60px
+  border-top: 2px solid Teal
+  margin-top: 60px
 
 .sidebar .sidebox-5
-border-top: 2px solid SeaGreen
-margin-top: 70px
+  border-top: 2px solid SeaGreen
+  margin-top: 70px
 
 .sidebar .sidebox-6
-border-top: 2px solid DarkGoldenRod
-margin-top: 80px
+  border-top: 2px solid DarkGoldenRod
+  margin-top: 80px
 
 
 
 #nightlife
-background-color: #000440
-color: #fff
+  background-color: #000440
+  color: #fff
 
 
 #gallery
-position: relative
-height: 600px
+  position: relative
+  height: 600px
 
 
 #gallery .caption
-position: absolute; bottom: 0
-height: 50px
-width: 100%
-line-height: 50px
-color: #fff
-text-align: center
-background-color: rgba(0,0,0,0.6)
+  position: absolute; bottom: 0
+  height: 50px
+  width: 100%
+  line-height: 50px
+  color: #fff
+  text-align: center
+  background-color: rgba(0,0,0,0.6)
 
 
 #tips .icon
-display: inline-block
-vertical-align: top
-height: 47px
-width: 47px
-border-radius: 100%
+  display: inline-block
+  vertical-align: top
+  height: 47px
+  width: 47px
+  border-radius: 100%
 
 
-.icon-1 background-color: green
-.icon-2 background-color: #52A4AB
-.icon-3 background-color: PaleVioletRed
-.icon-4 background-color: Teal
-.icon-5 background-color: Chocolate
-.icon-6 background-color: FireBrick
-.icon-7 background-color: DodgerBlue
-.icon-8 background-color: DeepSkyBlue
+.icon-1
+  background-color: green
+.icon-2
+  background-color: #52A4AB
+.icon-3
+  background-color: PaleVioletRed
+.icon-4
+  background-color: Teal
+.icon-5
+  background-color: Chocolate
+.icon-6
+  background-color: FireBrick
+.icon-7
+  background-color: DodgerBlue
+.icon-8
+  background-color: DeepSkyBlue
 
-.tip-box margin-top: 20px
+.tip-box
+  margin-top: 20px
 .tip-text
-width: 250px
-margin-left: 30px
-display: inline-block
+  width: 250px
+  margin-left: 30px
+  display: inline-block
 
 
 .form-control
-height: 75px
-margin-bottom: 27px
-padding: 18px
-border: 4px solid #ebe5da
-border-radius:0%
-background: none
+  height: 75px
+  margin-bottom: 27px
+  padding: 18px
+  border: 4px solid #ebe5da
+  border-radius:0%
+  background: none
 
 
 /* make the feedback bar stick to the bottom of the page */
 .add-content
-position: fixed
-bottom: 0
+  position: fixed
+  bottom: 0
 
 
 /* underline feedback bar on hover */
 .add-content:hover
-text-decoration: underline
+  text-decoration: underline
 
 
 .submit-button
-width: 100%
-padding: 10px
-background-color: #ebe5da
-font-size: 1.0em
-font-weight: 700
-letter-spacing: 1px
-text-transform: uppercase
-height:60px
-border: none
+  width: 100%
+  padding: 10px
+  background-color: #ebe5da
+  font-size: 1.0em
+  font-weight: 700
+  letter-spacing: 1px
+  text-transform: uppercase
+  height:60px
+  border: none
 
 
-#footer padding-top: 27px
+#footer
+  padding-top: 27px
 #footer .logo1 img
-margin-top: 10px
-height: 120px
-width: 150px
+  margin-top: 10px
+  height: 120px
+  width: 150px
 
 
 #footer .logo2 img
-max-height: 140px
-max-width: 140px
+  max-height: 140px
+  max-width: 140px

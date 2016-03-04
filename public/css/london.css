@@ -1,7 +1,5 @@
-#hero {
-    background-image: url(../img/london-1.jpg);
-}
+#hero
+  background-image: url(../img/london-1.jpg)
 
-#gallery {
-    background-image: url(../img/london-2.jpg);
-}
+#gallery
+  background-image: url(../img/london-2.jpg)
